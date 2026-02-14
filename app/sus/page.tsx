@@ -9,8 +9,43 @@ export const metadata: Metadata = {
     "Checklist completo e imprimível para conseguir cannabis medicinal pelo SUS. Passo a passo, documentos necessários e o que fazer se negarem.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "Como conseguir cannabis medicinal pelo SUS",
+  description:
+    "Passo a passo para conseguir cannabis medicinal pelo Sistema Único de Saúde no Brasil.",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Consulta médica",
+      text: "Vá ao posto de saúde (UBS) e peça encaminhamento para um especialista que avalie se a cannabis medicinal é indicada para o seu caso.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Secretaria Municipal de Saúde",
+      text: "Com a receita e o laudo em mãos, vá à Secretaria Municipal de Saúde com todos os documentos e protocole o pedido.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Esperar a resposta",
+      text: "O prazo é de até 30 dias. Se ninguém responder nesse prazo, procure a Defensoria Pública.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Se negarem ou não responderem",
+      text: "Procure a Defensoria Pública do seu estado. O atendimento é gratuito e ela pode entrar com ação judicial por você.",
+    },
+  ],
+};
+
 export default function SusPage() {
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <PageContainer
       title="Como conseguir cannabis medicinal pelo SUS"
       verificationDate={VERIFICATION_DATE}
@@ -229,5 +264,6 @@ export default function SusPage() {
         </p>
       </section>
     </PageContainer>
+    </>
   );
 }

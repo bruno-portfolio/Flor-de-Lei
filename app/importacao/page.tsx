@@ -9,8 +9,51 @@ export const metadata: Metadata = {
     "Passo a passo para importar cannabis medicinal pela ANVISA. Tempo, custo, documentos e o que fazer se der problema.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "Como importar cannabis medicinal legalmente",
+  description:
+    "Passo a passo para importar cannabis medicinal pela ANVISA no Brasil.",
+  estimatedCost: {
+    "@type": "MonetaryAmount",
+    currency: "BRL",
+    minValue: 200,
+    maxValue: 800,
+    description: "Custo mensal estimado",
+  },
+  totalTime: "P6W",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Receita médica",
+      text: "Consiga uma receita com nome comercial do produto, dosagem diária, data da prescrição, assinatura e CRM do médico.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Cadastro na ANVISA",
+      text: "Crie conta no gov.br (nível prata ou ouro), acesse o portal de Importação de Canabidiol, preencha os dados e anexe a receita. Prazo: 5 a 15 dias úteis.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Autorização recebida",
+      text: "A autorização vale por 2 anos. Com ela, você pode importar quantas vezes precisar dentro desse período.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Comprar",
+      text: "Compre direto do fabricante internacional pelo site. O produto é enviado pelos Correios e liberado pela alfândega sem imposto até US$ 10.000.",
+    },
+  ],
+};
+
 export default function ImportacaoPage() {
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <PageContainer
       title="Como importar cannabis medicinal legalmente"
       verificationDate={VERIFICATION_DATE}
@@ -236,5 +279,6 @@ export default function ImportacaoPage() {
         <p className="source-badge">Fonte: Kaya Mind 2025</p>
       </section>
     </PageContainer>
+    </>
   );
 }

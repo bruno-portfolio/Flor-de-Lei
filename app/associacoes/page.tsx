@@ -16,7 +16,37 @@ export default function AssociacoesPage() {
     (a) => a.ativo
   ) as Associacao[];
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Associações de Cannabis Medicinal no Brasil",
+    description:
+      "Diretório de associações de cannabis medicinal por estado brasileiro.",
+    numberOfItems: associacoes.length,
+    itemListElement: associacoes.map((a, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Organization",
+        name: a.nome,
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: a.cidade,
+          addressRegion: a.estado,
+          addressCountry: "BR",
+        },
+        telephone: a.telefone,
+        ...(a.site ? { url: a.site } : {}),
+      },
+    })),
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <PageContainer
       title="Associações de Cannabis Medicinal"
       verificationDate={VERIFICATION_DATE}
@@ -76,5 +106,6 @@ export default function AssociacoesPage() {
         </p>
       </section>
     </PageContainer>
+    </>
   );
 }

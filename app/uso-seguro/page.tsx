@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import PageContainer from "@/components/shared/PageContainer";
-import { VERIFICATION_DATE } from "@/lib/constants";
+import { VERIFICATION_DATE, SITE_NAME, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Guia de uso seguro — Cannabis medicinal",
@@ -8,8 +8,28 @@ export const metadata: Metadata = {
     "Armazenamento, titulação, efeitos colaterais, o que esperar e quando procurar o médico. Guia prático e imprimível.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Guia de uso seguro — Cannabis medicinal",
+  description:
+    "Armazenamento, titulação, efeitos colaterais, o que esperar e quando procurar o médico.",
+  publisher: {
+    "@type": "Organization",
+    name: SITE_NAME,
+    url: SITE_URL,
+  },
+  mainEntityOfPage: `${SITE_URL}/uso-seguro`,
+  inLanguage: "pt-BR",
+};
+
 export default function UsoSeguroPage() {
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <PageContainer
       title="Guia de uso seguro — Cannabis medicinal"
       verificationDate={VERIFICATION_DATE}
@@ -314,5 +334,6 @@ export default function UsoSeguroPage() {
         </p>
       </section>
     </PageContainer>
+    </>
   );
 }
