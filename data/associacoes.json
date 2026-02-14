@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-13",
+  "lastUpdated": "2026-02-14",
   "associations": [
     {
       "id": "abrace-esperanca-pb",
@@ -20,7 +20,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "apepi-rj",
@@ -41,7 +42,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": false
     },
     {
       "id": "santa-cannabis-sc",
@@ -61,7 +63,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "cultive-sp",
@@ -82,7 +85,8 @@
       "condicoesAtendidas": ["epilepsia", "dor-cronica", "ansiedade", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": false
     },
     {
       "id": "abrario-rj",
@@ -103,7 +107,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "amame-mg",
@@ -124,7 +129,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "insonia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "tijucanna-mg",
@@ -145,7 +151,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "liga-canabica-pb",
@@ -228,7 +235,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "parkinson", "alzheimer", "ansiedade", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "acuracan-rs",
@@ -249,7 +257,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "alzheimer", "ansiedade", "insonia", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "apracam-pr",
@@ -312,7 +321,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "agape-go",
@@ -333,7 +343,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "assoc-alternativa-sc",
@@ -353,27 +364,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
-      "placeholder": false
-    },
-    {
-      "id": "santa-cannabis-sp",
-      "nome": "Santa Cannabis - Escritório São Paulo",
-      "estado": "SP",
-      "cidade": "São Paulo",
-      "telefone": "(11) 98884-4648",
-      "site": "https://santacannabis.com.br/",
-      "faixaPreco": {
-        "min": 120,
-        "max": 600,
-        "moeda": "BRL",
-        "fonte": "HempVegan / site oficial Santa Cannabis",
-        "dataVerificacao": "2026-02-13"
-      },
-      "cultivoAutorizado": true,
-      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-02-13",
-      "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": false
     },
     {
       "id": "cannape-pe",
@@ -435,7 +427,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia"],
       "dataVerificacao": "2026-02-14",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "regenera-al",
@@ -456,7 +449,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "fibromialgia"],
       "dataVerificacao": "2026-02-14",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "salvar-se",
@@ -477,7 +471,8 @@
       "condicoesAtendidas": ["epilepsia", "autismo"],
       "dataVerificacao": "2026-02-14",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": true
     }
   ]
 }

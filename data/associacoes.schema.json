@@ -97,6 +97,10 @@
         "placeholder": {
           "type": "boolean",
           "description": "true = dado fictício para desenvolvimento, não publicar"
+        },
+        "suporteJuridico": {
+          "type": "boolean",
+          "description": "Se a associação oferece suporte jurídico aos associados (verificado no site oficial)"
         }
       },
       "additionalProperties": false

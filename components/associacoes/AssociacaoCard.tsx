@@ -29,12 +29,19 @@ export default function AssociacaoCard({ associacao }: AssociacaoCardProps) {
         </p>
       </div>
 
-      {/* Cultivo autorizado badge */}
-      {associacao.cultivoAutorizado && (
-        <span className="inline-block bg-green-100 text-forest text-xs font-semibold px-3 py-1 rounded-full">
-          Cultivo autorizado
-        </span>
-      )}
+      {/* Badges */}
+      <div className="flex flex-wrap gap-2">
+        {associacao.cultivoAutorizado && (
+          <span className="inline-block bg-green-100 text-forest text-xs font-semibold px-3 py-1 rounded-full">
+            Cultivo autorizado
+          </span>
+        )}
+        {associacao.suporteJuridico && (
+          <span className="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">
+            Suporte jur\u00eddico
+          </span>
+        )}
+      </div>
 
       {/* Condições atendidas */}
       {associacao.condicoesAtendidas.length > 0 && (

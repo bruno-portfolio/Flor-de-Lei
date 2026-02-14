@@ -29,7 +29,8 @@ export interface Associacao {
   condicoesAtendidas: string[];
   dataVerificacao: string; // ISO date: YYYY-MM-DD
   ativo: boolean;
-  placeholder?: boolean; // true = dado fictício para dev, não publicar
+  placeholder?: boolean;
+  suporteJuridico?: boolean;
 }
 
 export interface AssociacoesData {
