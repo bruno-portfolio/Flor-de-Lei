@@ -4,9 +4,9 @@ export const SITE_NAME = "Flor de Lei";
 export const SITE_DESCRIPTION =
   "Guia gratuito e de código aberto para acesso à cannabis medicinal no Brasil. Informações verificadas sobre SUS, importação, associações e uso seguro.";
 export const SITE_URL = "https://flordelei.org";
-export const GITHUB_URL = "https://github.com/brunoe/flor-de-lei";
-// TODO: Substituir pelo link real do Google Form antes do deploy
-export const GOOGLE_FORM_URL = "#";
+export const GITHUB_URL = "https://github.com/bruno-portfolio/Flor-de-Lei";
+export const GOOGLE_FORM_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSdtYZHV0zetR5FNn4ADjWLLV-XNNArvaU9kC5KNczcym0h7RA/viewform";
 export const VERIFICATION_DATE = "2026-02-13";
 
 export const ESTADOS: { sigla: EstadoBR; nome: string }[] = [

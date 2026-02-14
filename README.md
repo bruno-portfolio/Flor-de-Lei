@@ -43,7 +43,7 @@ O diretório depende da comunidade. Se você conhece uma associação que não e
 
 1. Abra uma [Issue](../../issues) com os dados
 2. Ou envie um Pull Request editando `/data/associacoes.json`
-3. Ou preencha nosso [formulário](#) <!-- TODO: Substituir pelo link real do Google Form -->
+3. Ou preencha nosso [formulário](https://docs.google.com/forms/d/e/1FAIpQLSdtYZHV0zetR5FNn4ADjWLLV-XNNArvaU9kC5KNczcym0h7RA/viewform)
 
 Toda contribuição de dados é validada automaticamente pelo CI contra o JSON Schema (`/data/associacoes.schema.json`).
 
