@@ -24,7 +24,7 @@ const FAQ_ITEMS: FaqItemData[] = [
   {
     question: "Quanto custa o tratamento?",
     answer:
-      "Depende do caminho. Associações de pacientes: R$70 a R$300 por mês. Importação: R$200 a R$800 por mês. Farmácia: R$200 a R$3.000 por mês. Pelo SUS: gratuito (com processo judicial). Nosso guia ajuda a encontrar o caminho mais acessível.",
+      "Depende do caminho. Associações de pacientes: R$150 a R$300 por mês (varia com a dosagem). Importação: R$200 a R$800 por mês. Farmácia: R$200 a R$3.000 por mês. Pelo SUS: gratuito (com processo judicial). Nosso guia ajuda a encontrar o caminho mais acessível.",
     source: "Fonte: Kaya Mind — Panorama da Cannabis Medicinal no Brasil 2025",
   },
   {

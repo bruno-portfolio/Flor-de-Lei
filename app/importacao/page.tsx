@@ -269,8 +269,8 @@ export default function ImportacaoPage() {
           </p>
           <p>
             Muitas associações produzem o próprio óleo com autorização judicial e
-            cobram entre <strong>R$&nbsp;70 e R$&nbsp;300 por mês</strong> — bem
-            menos que a importação.
+            cobram entre <strong>R$&nbsp;150 e R$&nbsp;300 por mês</strong>,
+            dependendo da dosagem.
           </p>
           <Link href="/associacoes" className="btn-primary no-underline mt-2">
             Ver associações por estado
