@@ -6,7 +6,7 @@ export default function DoctorTalkCard() {
       <ol className="list-decimal list-inside space-y-2 text-bark-light">
         <li>Levar material informativo sobre evidências científicas para o médico</li>
         <li>Pedir encaminhamento para um especialista</li>
-        <li>Consultar por telemedicina com um médico prescritor experiente (a partir de R$99)</li>
+        <li>Consultar por telemedicina com um médico prescritor experiente (a partir de R$60)</li>
       </ol>
       <p className="source-badge">
         Fonte: CFM — Resolução 2.113/2014 (autonomia de prescrição médica)

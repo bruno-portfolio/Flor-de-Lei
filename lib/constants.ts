@@ -43,11 +43,16 @@ export const PLATAFORMAS_TELEMEDICINA = [
   {
     nome: "Cannabis & Saúde",
     url: "https://cannabisesaude.com.br",
-    descricao: "Plataforma de telemedicina especializada em cannabis medicinal",
+    descricao: "300+ médicos prescritores, consultas a partir de R$200",
   },
   {
-    nome: "Dr. Cannabis",
-    url: "https://drcannabis.com.br",
-    descricao: "Consultas online com médicos prescritores",
+    nome: "Cannexa",
+    url: "https://cannexa.com.br",
+    descricao: "Telemedicina especializada, consultas a partir de R$79",
+  },
+  {
+    nome: "CANNAID",
+    url: "https://cannaid.app",
+    descricao: "Consultas a partir de R$60, em conformidade com RDC 660/2022",
   },
 ];

@@ -118,7 +118,7 @@ export default function SusPage() {
             </p>
             <p className="mt-2">
               Se o médico não quiser prescrever, você pode buscar uma consulta
-              por telemedicina a partir de R$&nbsp;99. Veja mais abaixo.
+              por telemedicina a partir de R$&nbsp;60. Veja mais abaixo.
             </p>
           </div>
 
@@ -223,7 +223,7 @@ export default function SusPage() {
             <li>
               <strong>Telemedicina:</strong> existem plataformas com médicos
               especializados em cannabis medicinal. Consultas a partir de
-              R$&nbsp;99.
+              R$&nbsp;60.
             </li>
             <li>
               <strong>Associações de pacientes:</strong> muitas têm equipe médica

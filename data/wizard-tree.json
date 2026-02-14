@@ -86,17 +86,22 @@
       "type": "result",
       "progress": 100,
       "title": "Pr\u00f3ximo passo: conseguir receita m\u00e9dica",
-      "content": "Para usar cannabis medicinal no Brasil, voc\u00ea precisa de uma receita m\u00e9dica. A boa not\u00edcia \u00e9 que hoje existem plataformas de telemedicina onde voc\u00ea consegue uma consulta online, sem sair de casa, a partir de R$99.\n\nAs principais plataformas s\u00e3o a Cannabis & Sa\u00fade e a Dr. Cannabis. Os m\u00e9dicos dessas plataformas j\u00e1 conhecem o tratamento com cannabis e podem avaliar se ele \u00e9 indicado para o seu caso.\n\nAlgumas associa\u00e7\u00f5es de pacientes tamb\u00e9m contam com m\u00e9dicos parceiros que fazem consultas a pre\u00e7os acess\u00edveis. Depois de conseguir a receita, voc\u00ea pode voltar aqui para descobrir a melhor forma de acessar o medicamento.",
+      "content": "Para usar cannabis medicinal no Brasil, voc\u00ea precisa de uma receita m\u00e9dica. A boa not\u00edcia \u00e9 que hoje existem plataformas de telemedicina onde voc\u00ea consegue uma consulta online, sem sair de casa, a partir de R$60.\n\nExistem diversas plataformas especializadas com m\u00e9dicos que j\u00e1 conhecem o tratamento com cannabis e podem avaliar se ele \u00e9 indicado para o seu caso. Veja as op\u00e7\u00f5es abaixo.\n\nAlgumas associa\u00e7\u00f5es de pacientes tamb\u00e9m contam com m\u00e9dicos parceiros que fazem consultas a pre\u00e7os acess\u00edveis. Depois de conseguir a receita, voc\u00ea pode voltar aqui para descobrir a melhor forma de acessar o medicamento.",
       "showDoctorTalkCard": true,
       "links": [
         {
-          "label": "Cannabis & Sa\u00fade \u2013 Agendar consulta",
+          "label": "Cannabis & Sa\u00fade (a partir de R$200)",
           "url": "https://cannabisesaude.com.br",
           "type": "external"
         },
         {
-          "label": "Dr. Cannabis \u2013 Agendar consulta",
-          "url": "https://drcannabis.com.br",
+          "label": "Cannexa (a partir de R$79)",
+          "url": "https://cannexa.com.br",
+          "type": "external"
+        },
+        {
+          "label": "CANNAID (a partir de R$60)",
+          "url": "https://cannaid.app",
           "type": "external"
         },
         {
