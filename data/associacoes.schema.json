@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://flordelei.org/schemas/associacoes.json",
+  "title": "Associações de Cannabis Medicinal",
+  "description": "Diretório de associações de cannabis medicinal por estado brasileiro",
+  "type": "object",
+  "required": ["lastUpdated", "associations"],
+  "properties": {
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "Data da última atualização geral do diretório (YYYY-MM-DD)"
+    },
+    "associations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Associacao"
+      }
+    }
+  },
+  "definitions": {
+    "Associacao": {
+      "type": "object",
+      "required": [
+        "id",
+        "nome",
+        "estado",
+        "cidade",
+        "telefone",
+        "faixaPreco",
+        "cultivoAutorizado",
+        "condicoesAtendidas",
+        "dataVerificacao",
+        "ativo"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Identificador único da associação"
+        },
+        "nome": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nome completo da associação"
+        },
+        "estado": {
+          "type": "string",
+          "enum": [
+            "AC", "AL", "AM", "AP", "BA", "CE", "DF", "ES",
+            "GO", "MA", "MG", "MS", "MT", "PA", "PB", "PE",
+            "PI", "PR", "RJ", "RN", "RO", "RR", "RS", "SC",
+            "SE", "SP", "TO"
+          ],
+          "description": "Sigla do estado (UF)"
+        },
+        "cidade": {
+          "type": "string",
+          "description": "Cidade sede da associação"
+        },
+        "telefone": {
+          "type": "string",
+          "pattern": "^\\(\\d{2}\\)\\s?\\d{4,5}-\\d{4}$",
+          "description": "Telefone no formato (XX) XXXXX-XXXX ou (XX) XXXX-XXXX"
+        },
+        "whatsapp": {
+          "type": "string",
+          "description": "Número de WhatsApp (formato internacional, ex: 5511999999999)"
+        },
+        "site": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL do site da associação"
+        },
+        "faixaPreco": {
+          "$ref": "#/definitions/FaixaPreco"
+        },
+        "cultivoAutorizado": {
+          "type": "boolean",
+          "description": "Se a associação possui autorização judicial para cultivo"
+        },
+        "condicoesAtendidas": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de condições médicas atendidas pela associação"
+        },
+        "dataVerificacao": {
+          "type": "string",
+          "format": "date",
+          "description": "Data em que os dados foram verificados pela última vez (YYYY-MM-DD)"
+        },
+        "ativo": {
+          "type": "boolean",
+          "description": "Se a associação está ativa e aceitando novos pacientes"
+        },
+        "placeholder": {
+          "type": "boolean",
+          "description": "true = dado fictício para desenvolvimento, não publicar"
+        }
+      },
+      "additionalProperties": false
+    },
+    "FaixaPreco": {
+      "type": "object",
+      "required": ["min", "max", "moeda", "fonte", "dataVerificacao"],
+      "properties": {
+        "min": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Valor mínimo mensal estimado"
+        },
+        "max": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Valor máximo mensal estimado"
+        },
+        "moeda": {
+          "type": "string",
+          "description": "Código da moeda (ex: BRL)"
+        },
+        "fonte": {
+          "type": "string",
+          "description": "Fonte da informação de preço"
+        },
+        "dataVerificacao": {
+          "type": "string",
+          "format": "date",
+          "description": "Data de verificação do preço (YYYY-MM-DD)"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

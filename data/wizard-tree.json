@@ -1,0 +1,324 @@
+{
+  "flows": {
+    "nunca-tratei": {
+      "id": "nunca-tratei",
+      "label": "Nunca tratei com cannabis medicinal",
+      "startStep": "a-step-0"
+    },
+    "quero-pagar-menos": {
+      "id": "quero-pagar-menos",
+      "label": "Quero pagar menos pelo meu tratamento",
+      "startStep": "b-step-0"
+    }
+  },
+  "steps": {
+    "a-step-0": {
+      "id": "a-step-0",
+      "flow": "nunca-tratei",
+      "type": "question",
+      "question": "O paciente \u00e9 menor de idade?",
+      "options": [
+        {
+          "label": "Sim",
+          "nextStep": "a-step-1",
+          "setsFlag": "isMinor"
+        },
+        {
+          "label": "N\u00e3o",
+          "nextStep": "a-step-1"
+        }
+      ],
+      "progress": 0
+    },
+    "a-step-1": {
+      "id": "a-step-1",
+      "flow": "nunca-tratei",
+      "type": "question",
+      "question": "Voc\u00ea j\u00e1 tem receita m\u00e9dica para cannabis?",
+      "options": [
+        {
+          "label": "Sim, j\u00e1 tenho receita",
+          "nextStep": "a-step-3"
+        },
+        {
+          "label": "N\u00e3o, ainda n\u00e3o tenho",
+          "nextStep": "a-step-2"
+        }
+      ],
+      "progress": 25
+    },
+    "a-step-2": {
+      "id": "a-step-2",
+      "flow": "nunca-tratei",
+      "type": "state-select",
+      "question": "Qual seu estado?",
+      "nextStep": "a-result-no-prescription",
+      "progress": 50
+    },
+    "a-step-3": {
+      "id": "a-step-3",
+      "flow": "nunca-tratei",
+      "type": "question",
+      "question": "Quanto voc\u00ea pode investir por m\u00eas no tratamento?",
+      "options": [
+        {
+          "label": "At\u00e9 R$300",
+          "nextStep": "a-result-low-budget"
+        },
+        {
+          "label": "R$300 a R$800",
+          "nextStep": "a-result-mid-budget"
+        },
+        {
+          "label": "Acima de R$800",
+          "nextStep": "a-result-high-budget"
+        },
+        {
+          "label": "N\u00e3o tenho dinheiro",
+          "nextStep": "a-result-no-money"
+        }
+      ],
+      "progress": 50
+    },
+    "a-result-no-prescription": {
+      "id": "a-result-no-prescription",
+      "flow": "nunca-tratei",
+      "type": "result",
+      "progress": 100,
+      "title": "Pr\u00f3ximo passo: conseguir receita m\u00e9dica",
+      "content": "Para usar cannabis medicinal no Brasil, voc\u00ea precisa de uma receita m\u00e9dica. A boa not\u00edcia \u00e9 que hoje existem plataformas de telemedicina onde voc\u00ea consegue uma consulta online, sem sair de casa, a partir de R$99.\n\nAs principais plataformas s\u00e3o a Cannabis & Sa\u00fade e a Dr. Cannabis. Os m\u00e9dicos dessas plataformas j\u00e1 conhecem o tratamento com cannabis e podem avaliar se ele \u00e9 indicado para o seu caso.\n\nAlgumas associa\u00e7\u00f5es de pacientes tamb\u00e9m contam com m\u00e9dicos parceiros que fazem consultas a pre\u00e7os acess\u00edveis. Depois de conseguir a receita, voc\u00ea pode voltar aqui para descobrir a melhor forma de acessar o medicamento.",
+      "showDoctorTalkCard": true,
+      "links": [
+        {
+          "label": "Cannabis & Sa\u00fade \u2013 Agendar consulta",
+          "url": "https://cannabisesaude.com.br",
+          "type": "external"
+        },
+        {
+          "label": "Dr. Cannabis \u2013 Agendar consulta",
+          "url": "https://drcannabis.com.br",
+          "type": "external"
+        },
+        {
+          "label": "Ver associa\u00e7\u00f5es no seu estado",
+          "url": "/associacoes",
+          "type": "internal"
+        }
+      ]
+    },
+    "a-result-low-budget": {
+      "id": "a-result-low-budget",
+      "flow": "nunca-tratei",
+      "type": "result",
+      "progress": 100,
+      "title": "Associa\u00e7\u00f5es no seu estado",
+      "content": "Para quem pode investir at\u00e9 R$300 por m\u00eas, as associa\u00e7\u00f5es de pacientes s\u00e3o a melhor op\u00e7\u00e3o. Elas oferecem produtos de cannabis medicinal por valores entre R$70 e R$300 por m\u00eas (valores verificados em fevereiro de 2026).\n\nAs associa\u00e7\u00f5es s\u00e3o organiza\u00e7\u00f5es sem fins lucrativos que produzem ou importam cannabis medicinal para seus associados. O processo \u00e9 legal e regulamentado pela Anvisa.\n\nPara se associar, voc\u00ea vai precisar da sua receita m\u00e9dica e de alguns documentos. Cada associa\u00e7\u00e3o tem seu pr\u00f3prio processo, mas a maioria responde r\u00e1pido pelo WhatsApp.",
+      "links": [
+        {
+          "label": "Ver associa\u00e7\u00f5es no seu estado",
+          "url": "/associacoes",
+          "type": "internal"
+        },
+        {
+          "label": "Guia de importa\u00e7\u00e3o (alternativa)",
+          "url": "/importacao",
+          "type": "internal"
+        }
+      ]
+    },
+    "a-result-mid-budget": {
+      "id": "a-result-mid-budget",
+      "flow": "nunca-tratei",
+      "type": "result",
+      "progress": 100,
+      "title": "Importa\u00e7\u00e3o ou farm\u00e1cia",
+      "content": "Com um or\u00e7amento entre R$300 e R$800 por m\u00eas, voc\u00ea tem duas boas op\u00e7\u00f5es: importar o medicamento ou comprar em farm\u00e1cia.\n\nImporta\u00e7\u00e3o: Custa entre R$200 e R$800 por m\u00eas. O processo leva de 3 a 6 semanas na primeira vez, porque voc\u00ea precisa de autoriza\u00e7\u00e3o da Anvisa. Depois disso, as compras seguintes chegam mais r\u00e1pido. \u00c9 uma op\u00e7\u00e3o com grande variedade de produtos.\n\nFarm\u00e1cia: O medicamento est\u00e1 dispon\u00edvel na hora, sem espera. Por\u00e9m, pode ser mais caro que a importa\u00e7\u00e3o. H\u00e1 farm\u00e1cias com produtos de cannabis aprovados pela Anvisa (RDC 327).\n\nDica: Considere tamb\u00e9m as associa\u00e7\u00f5es de pacientes, que oferecem produtos equivalentes por valores a partir de R$70 por m\u00eas.",
+      "links": [
+        {
+          "label": "Guia de importa\u00e7\u00e3o",
+          "url": "/importacao",
+          "type": "internal"
+        },
+        {
+          "label": "Ver associa\u00e7\u00f5es (op\u00e7\u00e3o mais em conta)",
+          "url": "/associacoes",
+          "type": "internal"
+        }
+      ]
+    },
+    "a-result-high-budget": {
+      "id": "a-result-high-budget",
+      "flow": "nunca-tratei",
+      "type": "result",
+      "progress": 100,
+      "title": "Farm\u00e1cia (RDC 327)",
+      "content": "Com or\u00e7amento acima de R$800 por m\u00eas, voc\u00ea pode comprar cannabis medicinal diretamente em farm\u00e1cias que vendem produtos aprovados pela Anvisa (RDC 327). A vantagem \u00e9 que o medicamento fica dispon\u00edvel na hora, sem espera.\n\nPor\u00e9m, vale saber: as associa\u00e7\u00f5es de pacientes oferecem produtos de qualidade equivalente por uma fra\u00e7\u00e3o do pre\u00e7o, entre R$70 e R$300 por m\u00eas. Muitos pacientes que come\u00e7am pela farm\u00e1cia migram para associa\u00e7\u00f5es depois e economizam bastante.\n\nConsidere essa alternativa, principalmente para tratamentos de longo prazo.",
+      "links": [
+        {
+          "label": "Ver associa\u00e7\u00f5es (economia de at\u00e9 90%)",
+          "url": "/associacoes",
+          "type": "internal"
+        },
+        {
+          "label": "Guia de importa\u00e7\u00e3o",
+          "url": "/importacao",
+          "type": "internal"
+        }
+      ]
+    },
+    "a-result-no-money": {
+      "id": "a-result-no-money",
+      "flow": "nunca-tratei",
+      "type": "result",
+      "progress": 100,
+      "title": "Voc\u00ea tem DIREITO ao tratamento",
+      "content": "Mesmo sem dinheiro, voc\u00ea tem direito ao tratamento com cannabis medicinal. Veja suas op\u00e7\u00f5es:\n\nSUS: O Sistema \u00danico de Sa\u00fade \u00e9 obrigado a fornecer cannabis medicinal quando prescrita por um m\u00e9dico. Se negarem, voc\u00ea pode entrar com um pedido judicial (muitos s\u00e3o ganhos). Nosso guia explica o passo a passo.\n\nPlano de sa\u00fade: Se voc\u00ea tem plano, ele tamb\u00e9m \u00e9 obrigado a cobrir o tratamento quando h\u00e1 prescri\u00e7\u00e3o m\u00e9dica. Se negarem, registre uma reclama\u00e7\u00e3o na ANS.\n\nAssocia\u00e7\u00f5es com programa de isen\u00e7\u00e3o: Algumas associa\u00e7\u00f5es de pacientes t\u00eam programas para pessoas que n\u00e3o podem pagar. Elas avaliam caso a caso e podem fornecer o medicamento gratuitamente ou com desconto.\n\nN\u00e3o desista. O acesso \u00e0 cannabis medicinal \u00e9 um direito seu.",
+      "showDoctorTalkCard": true,
+      "links": [
+        {
+          "label": "Guia: como conseguir pelo SUS",
+          "url": "/sus",
+          "type": "internal"
+        },
+        {
+          "label": "Ver associa\u00e7\u00f5es com programa de isen\u00e7\u00e3o",
+          "url": "/associacoes",
+          "type": "internal"
+        }
+      ]
+    },
+
+    "b-step-0": {
+      "id": "b-step-0",
+      "flow": "quero-pagar-menos",
+      "type": "question",
+      "question": "O paciente \u00e9 menor de idade?",
+      "options": [
+        {
+          "label": "Sim",
+          "nextStep": "b-step-1",
+          "setsFlag": "isMinor"
+        },
+        {
+          "label": "N\u00e3o",
+          "nextStep": "b-step-1"
+        }
+      ],
+      "progress": 0
+    },
+    "b-step-1": {
+      "id": "b-step-1",
+      "flow": "quero-pagar-menos",
+      "type": "question",
+      "question": "Como voc\u00ea acessa seu medicamento hoje?",
+      "options": [
+        {
+          "label": "Importo",
+          "nextStep": "b-step-2b"
+        },
+        {
+          "label": "Compro em farm\u00e1cia",
+          "nextStep": "b-step-2b"
+        },
+        {
+          "label": "Associa\u00e7\u00e3o",
+          "nextStep": "b-result-already-association"
+        },
+        {
+          "label": "SUS ou plano de sa\u00fade",
+          "nextStep": "b-result-sus-issues"
+        }
+      ],
+      "progress": 25
+    },
+    "b-step-2b": {
+      "id": "b-step-2b",
+      "flow": "quero-pagar-menos",
+      "type": "question",
+      "question": "Quanto voc\u00ea paga por m\u00eas pelo seu medicamento?",
+      "options": [
+        {
+          "label": "At\u00e9 R$300",
+          "nextStep": "b-step-3b"
+        },
+        {
+          "label": "R$300 a R$800",
+          "nextStep": "b-step-3b"
+        },
+        {
+          "label": "Acima de R$800",
+          "nextStep": "b-step-3b"
+        }
+      ],
+      "progress": 50
+    },
+    "b-step-3b": {
+      "id": "b-step-3b",
+      "flow": "quero-pagar-menos",
+      "type": "state-select",
+      "question": "Qual seu estado?",
+      "nextStep": "b-result-cheaper",
+      "progress": 75
+    },
+    "b-result-cheaper": {
+      "id": "b-result-cheaper",
+      "flow": "quero-pagar-menos",
+      "type": "result",
+      "progress": 100,
+      "title": "Associa\u00e7\u00f5es no seu estado fornecem por R$70 a R$300/m\u00eas",
+      "content": "As associa\u00e7\u00f5es de pacientes s\u00e3o a forma mais barata de acessar cannabis medicinal no Brasil. Elas s\u00e3o organiza\u00e7\u00f5es sem fins lucrativos, regulamentadas pela Anvisa, que produzem ou importam o medicamento para seus associados.\n\nOs valores v\u00e3o de R$70 a R$300 por m\u00eas, bem menos do que importa\u00e7\u00e3o ou farm\u00e1cia (valores verificados em fevereiro de 2026).\n\nPara se associar, voc\u00ea precisa da receita m\u00e9dica e de alguns documentos simples. A maioria das associa\u00e7\u00f5es responde r\u00e1pido pelo WhatsApp.\n\nVeja as associa\u00e7\u00f5es dispon\u00edveis no seu estado e compare pre\u00e7os.",
+      "links": [
+        {
+          "label": "Ver associa\u00e7\u00f5es no seu estado",
+          "url": "/associacoes",
+          "type": "internal"
+        },
+        {
+          "label": "Guia de importa\u00e7\u00e3o (comparar pre\u00e7os)",
+          "url": "/importacao",
+          "type": "internal"
+        }
+      ]
+    },
+    "b-result-already-association": {
+      "id": "b-result-already-association",
+      "flow": "quero-pagar-menos",
+      "type": "result",
+      "progress": 100,
+      "title": "Voc\u00ea j\u00e1 est\u00e1 no caminho mais acess\u00edvel",
+      "content": "As associa\u00e7\u00f5es j\u00e1 s\u00e3o a op\u00e7\u00e3o mais barata para cannabis medicinal no Brasil. Mas ainda existem formas de reduzir ou zerar o custo:\n\nSUS (gratuito): Voc\u00ea pode pedir que o SUS forne\u00e7a o medicamento. Se negarem, \u00e9 poss\u00edvel entrar com um pedido judicial. Muitos pacientes conseguem por essa via. Nosso guia explica o passo a passo.\n\nPlano de sa\u00fade: Se voc\u00ea tem plano, ele \u00e9 obrigado a cobrir o tratamento quando prescrito por m\u00e9dico. Se negarem, registre reclama\u00e7\u00e3o na ANS.\n\nPrograma de isen\u00e7\u00e3o: Algumas associa\u00e7\u00f5es oferecem desconto ou isen\u00e7\u00e3o para quem comprova dificuldade financeira. Converse com a sua associa\u00e7\u00e3o sobre essa possibilidade.",
+      "links": [
+        {
+          "label": "Guia: como conseguir pelo SUS",
+          "url": "/sus",
+          "type": "internal"
+        },
+        {
+          "label": "Ver outras associa\u00e7\u00f5es (comparar pre\u00e7os)",
+          "url": "/associacoes",
+          "type": "internal"
+        }
+      ]
+    },
+    "b-result-sus-issues": {
+      "id": "b-result-sus-issues",
+      "flow": "quero-pagar-menos",
+      "type": "result",
+      "progress": 100,
+      "title": "Se tiver problemas com fornecimento, veja seus direitos",
+      "content": "Quem recebe cannabis medicinal pelo SUS ou plano de sa\u00fade tem direitos garantidos por lei. Se voc\u00ea est\u00e1 tendo problemas, veja o que fazer:\n\nSUS negou ou atrasou: Voc\u00ea pode registrar reclama\u00e7\u00e3o na Ouvidoria do SUS (136) e, se necess\u00e1rio, entrar com a\u00e7\u00e3o judicial. Muitos casos s\u00e3o resolvidos rapidamente.\n\nPlano de sa\u00fade negou: Registre reclama\u00e7\u00e3o na ANS (0800 701 9656). O plano \u00e9 obrigado a cobrir o tratamento quando h\u00e1 prescri\u00e7\u00e3o m\u00e9dica.\n\nFalta de medicamento: Se o medicamento est\u00e1 em falta, voc\u00ea tem direito a receber um equivalente. N\u00e3o aceite ficar sem tratamento.\n\nChecklist dos seus direitos:\n\u2022 Receita m\u00e9dica atualizada em m\u00e3os\n\u2022 Protocolo de todos os pedidos feitos\n\u2022 Registrar negativas por escrito\n\u2022 Guardar comprovantes de gastos (para reembolso judicial)",
+      "links": [
+        {
+          "label": "Guia completo: seus direitos no SUS",
+          "url": "/sus",
+          "type": "internal"
+        },
+        {
+          "label": "Ver associa\u00e7\u00f5es (alternativa mais barata)",
+          "url": "/associacoes",
+          "type": "internal"
+        }
+      ]
+    }
+  }
+}

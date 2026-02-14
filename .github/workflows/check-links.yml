@@ -1,0 +1,80 @@
+name: Check Links
+
+on:
+  schedule:
+    # Toda segunda-feira às 6h UTC (3h de Brasília)
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm ci
+
+      - name: Run link checker
+        id: check
+        run: npm run check-links
+        continue-on-error: true
+
+      - name: Create issue if broken links found
+        if: steps.check.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('scripts/link-report.json', 'utf8'));
+            const broken = report.results.filter(r => r.status === 'broken');
+            const warnings = report.results.filter(r => r.status === 'warning');
+
+            let body = `## 🔗 Links quebrados detectados\n\n`;
+            body += `**Data:** ${report.timestamp}\n\n`;
+
+            if (broken.length > 0) {
+              body += `### ❌ Quebrados (${broken.length})\n\n`;
+              body += `| URL | Status | Origem |\n|---|---|---|\n`;
+              broken.forEach(b => {
+                body += `| ${b.url} | ${b.statusCode || b.error} | ${b.source} |\n`;
+              });
+              body += `\n`;
+            }
+
+            if (warnings.length > 0) {
+              body += `### ⚠️ Avisos (${warnings.length})\n\n`;
+              body += `| URL | Status | Origem |\n|---|---|---|\n`;
+              warnings.forEach(w => {
+                body += `| ${w.url} | ${w.statusCode || w.error} | ${w.source} |\n`;
+              });
+            }
+
+            body += `\n---\n*Gerado automaticamente pelo Link Checker*`;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'links-quebrados'
+            });
+
+            if (issues.data.length > 0) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues.data[0].number,
+                body: body
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '🔗 Links quebrados detectados',
+                body: body,
+                labels: ['links-quebrados']
+              });
+            }

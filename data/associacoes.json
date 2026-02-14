@@ -1,0 +1,483 @@
+{
+  "lastUpdated": "2026-02-13",
+  "associations": [
+    {
+      "id": "abrace-esperanca-pb",
+      "nome": "Abrace Esperança",
+      "estado": "PB",
+      "cidade": "João Pessoa",
+      "telefone": "(83) 99844-0084",
+      "whatsapp": "5583998440084",
+      "site": "https://abraceesperanca.org.br/",
+      "faixaPreco": {
+        "min": 79,
+        "max": 680,
+        "moeda": "BRL",
+        "fonte": "Site oficial Abrace Esperança / Cannalize",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "apepi-rj",
+      "nome": "APEPI - Apoio à Pesquisa e Pacientes de Cannabis Medicinal",
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro",
+      "telefone": "(21) 99117-2625",
+      "whatsapp": "5521982269858",
+      "site": "https://apepi.org/",
+      "faixaPreco": {
+        "min": 160,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Site oficial APEPI (associado.apepi.org)",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "santa-cannabis-sc",
+      "nome": "Santa Cannabis",
+      "estado": "SC",
+      "cidade": "Florianópolis",
+      "telefone": "(48) 3034-0420",
+      "site": "https://santacannabis.com.br/",
+      "faixaPreco": {
+        "min": 120,
+        "max": 600,
+        "moeda": "BRL",
+        "fonte": "HempVegan / site oficial Santa Cannabis",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "cultive-sp",
+      "nome": "Cultive - Associação de Cannabis e Saúde",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "telefone": "(11) 2724-6798",
+      "whatsapp": "5511993437792",
+      "site": "https://cultive.org.br/",
+      "faixaPreco": {
+        "min": 0,
+        "max": 0,
+        "moeda": "BRL",
+        "fonte": "Sem custo de produto - associação de autocultivo. Cultive não vende óleos.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "dor-cronica", "ansiedade", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "abrario-rj",
+      "nome": "AbraRio - Associação Brasileira de Acesso à Cannabis Medicinal do RJ",
+      "estado": "RJ",
+      "cidade": "Niterói",
+      "telefone": "(21) 3254-1995",
+      "whatsapp": "5521982043786",
+      "site": "https://abrario.org/",
+      "faixaPreco": {
+        "min": 150,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Estimativa baseada em associações similares. Confirme com a associação.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "amame-mg",
+      "nome": "AMA+ME - Associação Brasileira de Pacientes de Cannabis Medicinal",
+      "estado": "MG",
+      "cidade": "Belo Horizonte",
+      "telefone": "(31) 99860-7603",
+      "whatsapp": "5531998607603",
+      "site": "https://amame.org.br/",
+      "faixaPreco": {
+        "min": 150,
+        "max": 350,
+        "moeda": "BRL",
+        "fonte": "Site oficial AMA+ME / ALMG audiência pública",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "insonia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "tijucanna-mg",
+      "nome": "Tijucanna Cannabis Terapêutica",
+      "estado": "MG",
+      "cidade": "Ituiutaba",
+      "telefone": "(34) 99763-2493",
+      "whatsapp": "5534997632493",
+      "site": "https://tijucanna.org/",
+      "faixaPreco": {
+        "min": 100,
+        "max": 300,
+        "moeda": "BRL",
+        "fonte": "Estimativa baseada em reportagens regionais. Confirme com a associação.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "liga-canabica-pb",
+      "nome": "Liga Canábica - Liga Paraibana em Defesa da Cannabis Medicinal",
+      "estado": "PB",
+      "cidade": "João Pessoa",
+      "telefone": "(83) 99806-6101",
+      "whatsapp": "5583998066101",
+      "site": "https://ligacanabica.org.br/",
+      "faixaPreco": {
+        "min": 0,
+        "max": 0,
+        "moeda": "BRL",
+        "fonte": "Organização de advocacia e defesa de direitos, não distribui produtos.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "aspaec-ba",
+      "nome": "ASPAEC - Associação Pauloafonsina de Estudos Canábicos",
+      "estado": "BA",
+      "cidade": "Paulo Afonso",
+      "telefone": "(75) 99932-0420",
+      "whatsapp": "5575999320420",
+      "site": "https://aspaec.com/",
+      "faixaPreco": {
+        "min": 200,
+        "max": 500,
+        "moeda": "BRL",
+        "fonte": "Cannalize / site oficial ASPAEC (flores e óleos)",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia", "esclerose-multipla", "parkinson", "alzheimer"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "cannab-ba",
+      "nome": "CANNAB - Associação para Pesquisa e Desenvolvimento da Cannabis Medicinal",
+      "estado": "BA",
+      "cidade": "Salvador",
+      "telefone": "(71) 2132-1152",
+      "site": "https://cannab.com.br/",
+      "faixaPreco": {
+        "min": 200,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Estimativa. Consultas gratuitas (acolhimento). Confirme preços com a associação.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo", "parkinson", "esclerose-multipla", "alzheimer"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "amme-pe",
+      "nome": "AMME Medicinal",
+      "estado": "PE",
+      "cidade": "Recife",
+      "telefone": "(81) 3264-2555",
+      "whatsapp": "5581996040269",
+      "site": "https://ammemedicinal.org/",
+      "faixaPreco": {
+        "min": 100,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Referência de óleos produzidos. Preços exatos sob consulta. Folha PE.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "parkinson", "alzheimer", "ansiedade", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "acuracan-rs",
+      "nome": "Acuracan - Associação Terapêutica para Tratamento Canábico",
+      "estado": "RS",
+      "cidade": "Porto Alegre",
+      "telefone": "(51) 99593-6733",
+      "whatsapp": "5551995936733",
+      "site": "https://acuracan.com.br/",
+      "faixaPreco": {
+        "min": 200,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Referência de mercado associativo. Confirme com a associação.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "alzheimer", "ansiedade", "insonia", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "apracam-pr",
+      "nome": "APRACAM - Associação Paranaense de Apoio à Cannabis Medicinal",
+      "estado": "PR",
+      "cidade": "Umuarama",
+      "telefone": "(44) 99940-9860",
+      "whatsapp": "5544999409860",
+      "site": "https://www.apracam.com.br/",
+      "faixaPreco": {
+        "min": 150,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Referência de mercado. Consulta médica R$250. Confirme com a associação.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "parkinson", "alzheimer", "ansiedade", "esclerose-multipla", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "alianca-verde-df",
+      "nome": "Aliança Verde - Instituto de Pesquisas Científicas das Plantas",
+      "estado": "DF",
+      "cidade": "Brasília",
+      "telefone": "(61) 98369-3232",
+      "whatsapp": "5561983693232",
+      "site": "https://www.aliancaverde.com",
+      "faixaPreco": {
+        "min": 150,
+        "max": 390,
+        "moeda": "BRL",
+        "fonte": "Referência de associações similares. Confirme com a associação.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "abracam-ce",
+      "nome": "ABRACAM - Associação Brasileira de Cannabis Medicinal",
+      "estado": "CE",
+      "cidade": "Fortaleza",
+      "telefone": "(85) 99647-6493",
+      "whatsapp": "5585996476493",
+      "site": "https://abracam.org/",
+      "faixaPreco": {
+        "min": 150,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Referência de mercado associativo. Confirme com a associação.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "agape-go",
+      "nome": "AGAPE - Associação Goiana de Apoio e Pesquisa à Cannabis Medicinal",
+      "estado": "GO",
+      "cidade": "Goiânia",
+      "telefone": "(62) 99102-3198",
+      "whatsapp": "5562991023198",
+      "site": "https://www.agapemedicinal.org/",
+      "faixaPreco": {
+        "min": 150,
+        "max": 300,
+        "moeda": "BRL",
+        "fonte": "Reportagens Jornal Opção / Portal ALEGO. Confirme com a associação.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "assoc-alternativa-sc",
+      "nome": "Associação Alternativa de Apoio à Cannabis Medicinal do Brasil",
+      "estado": "SC",
+      "cidade": "Imbituba",
+      "telefone": "(48) 99150-0001",
+      "site": "https://associacaoalternativa.com.br/",
+      "faixaPreco": {
+        "min": 100,
+        "max": 350,
+        "moeda": "BRL",
+        "fonte": "Referência de mercado. Consulte preços no site oficial.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "santa-cannabis-sp",
+      "nome": "Santa Cannabis - Escritório São Paulo",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "telefone": "(11) 98884-4648",
+      "site": "https://santacannabis.com.br/",
+      "faixaPreco": {
+        "min": 120,
+        "max": 600,
+        "moeda": "BRL",
+        "fonte": "HempVegan / site oficial Santa Cannabis",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": true,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "cannape-pe",
+      "nome": "CANNAPE - Associação Canábica Medicinal de Pernambuco",
+      "estado": "PE",
+      "cidade": "Paulista",
+      "telefone": "(81) 98228-8009",
+      "site": "https://www.instagram.com/associacaocannape/",
+      "faixaPreco": {
+        "min": 100,
+        "max": 350,
+        "moeda": "BRL",
+        "fonte": "Referência de mercado. Confirme com a associação.",
+        "dataVerificacao": "2026-02-13"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo"],
+      "dataVerificacao": "2026-02-13",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "ascamed-rs",
+      "nome": "ASCAMED - Associação Canábica Medicinal",
+      "estado": "RS",
+      "cidade": "Santa Maria",
+      "telefone": "(55) 99669-5099",
+      "whatsapp": "5555996695099",
+      "site": "https://ascamed.org/",
+      "faixaPreco": {
+        "min": 150,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Referência de mercado associativo. Confirme com a associação.",
+        "dataVerificacao": "2026-02-14"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia"],
+      "dataVerificacao": "2026-02-14",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "divina-flor-ms",
+      "nome": "Divina Flor - Associação de Cannabis Medicinal",
+      "estado": "MS",
+      "cidade": "Campo Grande",
+      "telefone": "(67) 99228-3768",
+      "whatsapp": "5567981361787",
+      "site": "https://divinaflor.org.br/",
+      "faixaPreco": {
+        "min": 150,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Referência de mercado associativo. Confirme com a associação.",
+        "dataVerificacao": "2026-02-14"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia"],
+      "dataVerificacao": "2026-02-14",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "regenera-al",
+      "nome": "Regenera - Associação de Cannabis Medicinal",
+      "estado": "AL",
+      "cidade": "Arapiraca",
+      "telefone": "(82) 99948-0420",
+      "whatsapp": "5582999480420",
+      "site": "https://regeneracbd.org/",
+      "faixaPreco": {
+        "min": 100,
+        "max": 350,
+        "moeda": "BRL",
+        "fonte": "Referência de mercado. Programa de isenção disponível. Confirme com a associação.",
+        "dataVerificacao": "2026-02-14"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "fibromialgia"],
+      "dataVerificacao": "2026-02-14",
+      "ativo": true,
+      "placeholder": false
+    },
+    {
+      "id": "salvar-se",
+      "nome": "SALVAR - Associação de Apoio à Cannabis Medicinal",
+      "estado": "SE",
+      "cidade": "Aracaju",
+      "telefone": "(79) 99970-6426",
+      "whatsapp": "5579999706426",
+      "site": "https://salvar-se.org.br/",
+      "faixaPreco": {
+        "min": 100,
+        "max": 350,
+        "moeda": "BRL",
+        "fonte": "Referência de mercado. Confirme com a associação.",
+        "dataVerificacao": "2026-02-14"
+      },
+      "cultivoAutorizado": false,
+      "condicoesAtendidas": ["epilepsia", "autismo"],
+      "dataVerificacao": "2026-02-14",
+      "ativo": true,
+      "placeholder": false
+    }
+  ]
+}

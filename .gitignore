@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated reports
+scripts/link-report.json
+
+# projeto
+.claude/
+ROADMAP.md
+nul
+role.txt
