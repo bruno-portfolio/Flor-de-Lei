@@ -38,7 +38,7 @@ export default function AssociacaoCard({ associacao }: AssociacaoCardProps) {
         )}
         {associacao.suporteJuridico && (
           <span className="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">
-            Suporte jur\u00eddico
+            Suporte jurídico
           </span>
         )}
       </div>
