@@ -39,6 +39,19 @@ export const ESTADOS: { sigla: EstadoBR; nome: string }[] = [
   { sigla: "TO", nome: "Tocantins" },
 ];
 
+export const CONDICOES_LABELS: Record<string, string> = {
+  "epilepsia": "Epilepsia",
+  "autismo": "Autismo",
+  "dor-cronica": "Dor crônica",
+  "ansiedade": "Ansiedade",
+  "fibromialgia": "Fibromialgia",
+  "insonia": "Insônia",
+  "esclerose-multipla": "Esclerose múltipla",
+  "parkinson": "Parkinson",
+  "alzheimer": "Alzheimer",
+  "cancer": "Câncer",
+};
+
 export const PLATAFORMAS_TELEMEDICINA = [
   {
     nome: "Cannabis & Saúde",

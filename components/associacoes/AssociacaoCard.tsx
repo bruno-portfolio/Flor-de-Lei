@@ -1,5 +1,6 @@
 import type { Associacao } from "@/lib/types";
 import { formatPriceRange, formatDateBR, isStaleVerification } from "@/lib/format";
+import { CONDICOES_LABELS } from "@/lib/constants";
 
 interface AssociacaoCardProps {
   associacao: Associacao;
@@ -51,7 +52,7 @@ export default function AssociacaoCard({ associacao }: AssociacaoCardProps) {
               key={condicao}
               className="inline-block bg-cream-dark text-bark text-xs px-2 py-1 rounded-full"
             >
-              {condicao}
+              {CONDICOES_LABELS[condicao] || condicao}
             </span>
           ))}
         </div>

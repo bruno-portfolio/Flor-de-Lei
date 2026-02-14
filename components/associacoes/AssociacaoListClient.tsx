@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { Associacao } from "@/lib/types";
 import StateFilter from "./StateFilter";
 import SearchInput from "./SearchInput";
+import ConditionFilter from "./ConditionFilter";
 import AssociacaoCard from "./AssociacaoCard";
 
 interface AssociacaoListClientProps {
@@ -16,6 +17,10 @@ export default function AssociacaoListClient({
 }: AssociacaoListClientProps) {
   const [selectedState, setSelectedState] = useState("");
   const [search, setSearch] = useState("");
+  const [selectedCondition, setSelectedCondition] = useState("");
+  const [cultivoOnly, setCultivoOnly] = useState(false);
+
+  const hasActiveFilters = selectedState || search || selectedCondition || cultivoOnly;
 
   const filtered = useMemo(() => {
     const searchLower = search.toLowerCase().trim();
@@ -29,47 +34,79 @@ export default function AssociacaoListClient({
       ) {
         return false;
       }
+      if (selectedCondition && !a.condicoesAtendidas.includes(selectedCondition))
+        return false;
+      if (cultivoOnly && !a.cultivoAutorizado) return false;
       return true;
     });
-  }, [associacoes, selectedState, search]);
+  }, [associacoes, selectedState, search, selectedCondition, cultivoOnly]);
+
+  function clearFilters() {
+    setSelectedState("");
+    setSearch("");
+    setSelectedCondition("");
+    setCultivoOnly(false);
+  }
 
   return (
     <div className="space-y-6">
-      {/* Filtros */}
-      <div className="flex flex-col sm:flex-row gap-3">
-        <StateFilter
-          selectedState={selectedState}
-          onStateChange={setSelectedState}
-        />
-        <SearchInput value={search} onChange={setSearch} />
+      <div className="space-y-3">
+        <div className="flex flex-col sm:flex-row gap-3">
+          <StateFilter
+            selectedState={selectedState}
+            onStateChange={setSelectedState}
+          />
+          <ConditionFilter
+            selectedCondition={selectedCondition}
+            onConditionChange={setSelectedCondition}
+          />
+        </div>
+        <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
+          <SearchInput value={search} onChange={setSearch} />
+          <label className="flex items-center gap-2 cursor-pointer whitespace-nowrap min-h-touch px-1">
+            <input
+              type="checkbox"
+              checked={cultivoOnly}
+              onChange={(e) => setCultivoOnly(e.target.checked)}
+              className="w-5 h-5 accent-forest rounded"
+            />
+            <span className="text-sm text-bark">Cultivo autorizado</span>
+          </label>
+        </div>
       </div>
 
-      {/* Resultados */}
-      <p className="text-sm text-bark-light">
-        {filtered.length}{" "}
-        {filtered.length === 1 ? "associação encontrada" : "associações encontradas"}
-      </p>
+      <div className="flex items-center gap-3">
+        <p className="text-sm text-bark-light">
+          {filtered.length}{" "}
+          {filtered.length === 1 ? "associação encontrada" : "associações encontradas"}
+        </p>
+        {hasActiveFilters && (
+          <button
+            onClick={clearFilters}
+            className="text-xs text-forest underline"
+          >
+            Limpar filtros
+          </button>
+        )}
+      </div>
 
       {filtered.length === 0 ? (
-        selectedState ? (
+        selectedState || selectedCondition || cultivoOnly ? (
           <div className="card space-y-4 py-6">
             <p className="text-bark font-semibold">
-              Não encontramos associações neste estado.
+              Nenhuma associação encontrada com esses filtros.
             </p>
             <p className="text-bark-light">
               Muitas associações atendem pacientes de todo o Brasil e enviam o
-              medicamento pelos Correios. Veja todas as associações disponíveis
-              ou explore outras formas de acesso.
+              medicamento pelos Correios. Tente remover alguns filtros ou
+              explore outras formas de acesso.
             </p>
             <div className="flex flex-wrap gap-3">
               <button
-                onClick={() => {
-                  setSelectedState("");
-                  setSearch("");
-                }}
+                onClick={clearFilters}
                 className="btn-primary text-sm"
               >
-                Ver todas as associações
+                Limpar filtros
               </button>
               <Link
                 href="/sus"
