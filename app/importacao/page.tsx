@@ -57,7 +57,7 @@ export default function ImportacaoPage() {
     <PageContainer
       title="Como importar cannabis medicinal legalmente"
       verificationDate={VERIFICATION_DATE}
-      whatsappText="Veja como importar cannabis medicinal pela ANVISA: https://flordelei.org/importacao"
+      whatsappText="Veja como importar cannabis medicinal pela ANVISA: https://flor-de-lei.vercel.app/importacao"
     >
       {/* ── BARRA DE INFORMAÇÃO RÁPIDA ── */}
       <section className="print-section space-y-4">

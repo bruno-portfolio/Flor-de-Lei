@@ -33,7 +33,7 @@ export default function UsoSeguroPage() {
     <PageContainer
       title="Guia de uso seguro — Cannabis medicinal"
       verificationDate={VERIFICATION_DATE}
-      whatsappText="Guia de uso seguro de cannabis medicinal: https://flordelei.org/uso-seguro"
+      whatsappText="Guia de uso seguro de cannabis medicinal: https://flor-de-lei.vercel.app/uso-seguro"
     >
       {/* ── SEÇÃO 1: ARMAZENAMENTO ── */}
       <section className="print-section space-y-4">

@@ -49,7 +49,7 @@ export default function SusPage() {
     <PageContainer
       title="Como conseguir cannabis medicinal pelo SUS"
       verificationDate={VERIFICATION_DATE}
-      whatsappText="Veja como conseguir cannabis medicinal pelo SUS: https://flordelei.org/sus"
+      whatsappText="Veja como conseguir cannabis medicinal pelo SUS: https://flor-de-lei.vercel.app/sus"
     >
       {/* ── SEÇÃO 1: O QUE VOCÊ VAI PRECISAR ── */}
       <section className="print-section space-y-4">

@@ -3,7 +3,7 @@ import type { EstadoBR } from "./types";
 export const SITE_NAME = "Flor de Lei";
 export const SITE_DESCRIPTION =
   "Guia gratuito e de código aberto para acesso à cannabis medicinal no Brasil. Informações verificadas sobre SUS, importação, associações e uso seguro.";
-export const SITE_URL = "https://flordelei.vercel.app";
+export const SITE_URL = "https://flor-de-lei.vercel.app";
 export const GITHUB_URL = "https://github.com/bruno-portfolio/Flor-de-Lei";
 export const GOOGLE_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSdtYZHV0zetR5FNn4ADjWLLV-XNNArvaU9kC5KNczcym0h7RA/viewform";

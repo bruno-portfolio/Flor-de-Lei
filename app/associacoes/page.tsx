@@ -50,7 +50,7 @@ export default function AssociacoesPage() {
     <PageContainer
       title="Associações de Cannabis Medicinal"
       verificationDate={VERIFICATION_DATE}
-      whatsappText="Veja o diretório de associações de cannabis medicinal por estado: https://flordelei.org/associacoes"
+      whatsappText="Veja o diretório de associações de cannabis medicinal por estado: https://flor-de-lei.vercel.app/associacoes"
     >
       <section className="space-y-4">
         <p>

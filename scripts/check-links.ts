@@ -36,7 +36,8 @@ const IGNORED_PREFIXES = ["#", "mailto:", "tel:"];
 const IGNORED_DOMAINS = [
   "wa.me",
   "api.whatsapp.com",
-  "flordelei.org",        // Próprio site — não verificar URLs internas
+  "flordelei.org",                // Próprio site (futuro domínio)
+  "flor-de-lei.vercel.app",       // Próprio site (Vercel)
   "www.w3.org",           // Namespace XML/SVG, não é link real
 ];
 

@@ -1,6 +1,6 @@
 # Flor de Lei
 
-[![Deploy](https://img.shields.io/badge/deploy-live-brightgreen)](https://flordelei.vercel.app)
+[![Deploy](https://img.shields.io/badge/deploy-live-brightgreen)](https://flor-de-lei.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue)
@@ -8,7 +8,7 @@
 
 Guia gratuito e open-source para acesso à cannabis medicinal no Brasil.
 
-**[flordelei.vercel.app](https://flordelei.vercel.app)**
+**[flor-de-lei.vercel.app](https://flor-de-lei.vercel.app)**
 
 ## Missão
 
