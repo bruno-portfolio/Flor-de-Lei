@@ -1,10 +1,10 @@
 # Flor de Lei
 
-![Vercel](https://vercelbadge.vercel.app/api/bruno-portfolio/Flor-de-Lei)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Data Validation](https://github.com/bruno-portfolio/Flor-de-Lei/actions/workflows/validate-data.yml/badge.svg)
+[![Deploy](https://img.shields.io/badge/deploy-live-brightgreen)](https://flordelei.vercel.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue)
+![Custo](https://img.shields.io/badge/custo-R%240%2Fm%C3%AAs-brightgreen)
 
 Guia gratuito e open-source para acesso à cannabis medicinal no Brasil.
 
