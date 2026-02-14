@@ -100,7 +100,7 @@
           "type": "external"
         },
         {
-          "label": "Ver associa\u00e7\u00f5es no seu estado",
+          "label": "Ver associa\u00e7\u00f5es (atendem todo o Brasil)",
           "url": "/associacoes",
           "type": "internal"
         }
@@ -111,12 +111,17 @@
       "flow": "nunca-tratei",
       "type": "result",
       "progress": 100,
-      "title": "Associa\u00e7\u00f5es no seu estado",
-      "content": "Para quem pode investir at\u00e9 R$300 por m\u00eas, as associa\u00e7\u00f5es de pacientes s\u00e3o a melhor op\u00e7\u00e3o. Elas oferecem produtos de cannabis medicinal por valores entre R$70 e R$300 por m\u00eas (valores verificados em fevereiro de 2026).\n\nAs associa\u00e7\u00f5es s\u00e3o organiza\u00e7\u00f5es sem fins lucrativos que produzem ou importam cannabis medicinal para seus associados. O processo \u00e9 legal e regulamentado pela Anvisa.\n\nPara se associar, voc\u00ea vai precisar da sua receita m\u00e9dica e de alguns documentos. Cada associa\u00e7\u00e3o tem seu pr\u00f3prio processo, mas a maioria responde r\u00e1pido pelo WhatsApp.",
+      "title": "Melhor op\u00e7\u00e3o: associa\u00e7\u00f5es de pacientes",
+      "content": "Para quem pode investir at\u00e9 R$300 por m\u00eas, as associa\u00e7\u00f5es de pacientes s\u00e3o a melhor op\u00e7\u00e3o. Elas oferecem produtos de cannabis medicinal por valores entre R$70 e R$300 por m\u00eas (valores verificados em fevereiro de 2026).\n\nAs associa\u00e7\u00f5es s\u00e3o organiza\u00e7\u00f5es sem fins lucrativos que produzem ou importam cannabis medicinal para seus associados. O processo \u00e9 legal e regulamentado pela Anvisa.\n\nImportante: mesmo que n\u00e3o exista uma associa\u00e7\u00e3o no seu estado, muitas atendem pacientes de todo o Brasil e enviam o medicamento pelos Correios. N\u00e3o precisa ser da mesma cidade.\n\nPara se associar, voc\u00ea vai precisar da sua receita m\u00e9dica e de alguns documentos. Cada associa\u00e7\u00e3o tem seu pr\u00f3prio processo, mas a maioria responde r\u00e1pido pelo WhatsApp.",
       "links": [
         {
-          "label": "Ver associa\u00e7\u00f5es no seu estado",
+          "label": "Ver associa\u00e7\u00f5es (atendem todo o Brasil)",
           "url": "/associacoes",
+          "type": "internal"
+        },
+        {
+          "label": "Guia: conseguir pelo SUS (gratuito)",
+          "url": "/sus",
           "type": "internal"
         },
         {
@@ -265,12 +270,17 @@
       "flow": "quero-pagar-menos",
       "type": "result",
       "progress": 100,
-      "title": "Associa\u00e7\u00f5es no seu estado fornecem por R$70 a R$300/m\u00eas",
-      "content": "As associa\u00e7\u00f5es de pacientes s\u00e3o a forma mais barata de acessar cannabis medicinal no Brasil. Elas s\u00e3o organiza\u00e7\u00f5es sem fins lucrativos, regulamentadas pela Anvisa, que produzem ou importam o medicamento para seus associados.\n\nOs valores v\u00e3o de R$70 a R$300 por m\u00eas, bem menos do que importa\u00e7\u00e3o ou farm\u00e1cia (valores verificados em fevereiro de 2026).\n\nPara se associar, voc\u00ea precisa da receita m\u00e9dica e de alguns documentos simples. A maioria das associa\u00e7\u00f5es responde r\u00e1pido pelo WhatsApp.\n\nVeja as associa\u00e7\u00f5es dispon\u00edveis no seu estado e compare pre\u00e7os.",
+      "title": "Associa\u00e7\u00f5es fornecem por R$70 a R$300/m\u00eas",
+      "content": "As associa\u00e7\u00f5es de pacientes s\u00e3o a forma mais barata de acessar cannabis medicinal no Brasil. Elas s\u00e3o organiza\u00e7\u00f5es sem fins lucrativos, regulamentadas pela Anvisa, que produzem ou importam o medicamento para seus associados.\n\nOs valores v\u00e3o de R$70 a R$300 por m\u00eas, bem menos do que importa\u00e7\u00e3o ou farm\u00e1cia (valores verificados em fevereiro de 2026).\n\nImportante: mesmo que n\u00e3o exista uma associa\u00e7\u00e3o no seu estado, muitas atendem pacientes de todo o Brasil e enviam o medicamento pelos Correios.\n\nPara se associar, voc\u00ea precisa da receita m\u00e9dica e de alguns documentos simples. A maioria das associa\u00e7\u00f5es responde r\u00e1pido pelo WhatsApp.",
       "links": [
         {
-          "label": "Ver associa\u00e7\u00f5es no seu estado",
+          "label": "Ver associa\u00e7\u00f5es (atendem todo o Brasil)",
           "url": "/associacoes",
+          "type": "internal"
+        },
+        {
+          "label": "Guia: conseguir pelo SUS (gratuito)",
+          "url": "/sus",
           "type": "internal"
         },
         {
