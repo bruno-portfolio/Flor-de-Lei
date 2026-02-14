@@ -112,7 +112,7 @@ export default function ImportacaoPage() {
             Se o seu médico não sabe o nome comercial do produto, não se
             preocupe. A ANVISA mantém uma{" "}
             <a
-              href="https://www.gov.br/anvisa/pt-br/assuntos/canabidiol"
+              href="https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/controlados/cannabis"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -241,7 +241,7 @@ export default function ImportacaoPage() {
             <p>
               Leve a{" "}
               <a
-                href="https://www.gov.br/anvisa/pt-br/assuntos/canabidiol"
+                href="https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/controlados/cannabis"
                 target="_blank"
                 rel="noopener noreferrer"
               >
