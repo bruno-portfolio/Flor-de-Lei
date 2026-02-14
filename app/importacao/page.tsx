@@ -258,25 +258,23 @@ export default function ImportacaoPage() {
 
       <div className="section-divider" />
 
-      {/* ── ANTES DE IMPORTAR ── */}
+      {/* ── OUTROS CAMINHOS ── */}
       <section className="print-section space-y-4">
-        <h2>ANTES DE IMPORTAR, CONSIDERE</h2>
-        <div className="card border-l-4 border-l-forest bg-green-50 space-y-3">
+        <h2>OUTROS CAMINHOS DE ACESSO</h2>
+        <div className="card space-y-3">
           <p>
-            Importar pode custar entre R$&nbsp;200 e R$&nbsp;800 por mês. Antes
-            de seguir esse caminho, veja se existe uma{" "}
-            <strong>associação de pacientes</strong> no seu estado.
+            Importação é uma das formas de acesso à cannabis medicinal no
+            Brasil. Conheça também as outras:
           </p>
-          <p>
-            Muitas associações produzem o próprio óleo com autorização judicial e
-            cobram entre <strong>R$&nbsp;150 e R$&nbsp;300 por mês</strong>,
-            dependendo da dosagem.
-          </p>
-          <Link href="/associacoes" className="btn-primary no-underline mt-2">
-            Ver associações por estado
-          </Link>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/associacoes" className="btn-primary no-underline">
+              Associações de pacientes
+            </Link>
+            <Link href="/sus" className="btn-secondary no-underline">
+              Pelo SUS (gratuito)
+            </Link>
+          </div>
         </div>
-        <p className="source-badge">Fonte: Kaya Mind 2025</p>
       </section>
     </PageContainer>
     </>

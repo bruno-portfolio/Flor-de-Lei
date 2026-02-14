@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageContainer from "@/components/shared/PageContainer";
 import AssociacaoListClient from "@/components/associacoes/AssociacaoListClient";
 import { VERIFICATION_DATE, GOOGLE_FORM_URL, GITHUB_URL } from "@/lib/constants";
@@ -96,6 +97,27 @@ export default function AssociacoesPage() {
           >
             Editar no GitHub
           </a>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Outros caminhos */}
+      <section className="space-y-4">
+        <h2>OUTROS CAMINHOS DE ACESSO</h2>
+        <div className="card space-y-3">
+          <p>
+            Associações são uma das formas de acesso à cannabis medicinal no
+            Brasil. Conheça também as outras:
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/sus" className="btn-primary no-underline">
+              Pelo SUS (gratuito)
+            </Link>
+            <Link href="/importacao" className="btn-secondary no-underline">
+              Importação pela ANVISA
+            </Link>
+          </div>
         </div>
       </section>
 

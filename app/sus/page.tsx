@@ -266,6 +266,27 @@ export default function SusPage() {
           Fonte: Jurisprudência consolidada — TJ-SP, TJ-RJ, TJ-RS
         </p>
       </section>
+
+      <div className="section-divider" />
+
+      {/* ── OUTROS CAMINHOS ── */}
+      <section className="print-section space-y-4">
+        <h2>OUTROS CAMINHOS DE ACESSO</h2>
+        <div className="card space-y-3">
+          <p>
+            O SUS é uma das formas de acesso à cannabis medicinal no
+            Brasil. Conheça também as outras:
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/associacoes" className="btn-primary no-underline">
+              Associações de pacientes
+            </Link>
+            <Link href="/importacao" className="btn-secondary no-underline">
+              Importação pela ANVISA
+            </Link>
+          </div>
+        </div>
+      </section>
     </PageContainer>
     </>
   );
