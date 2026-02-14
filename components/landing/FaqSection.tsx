@@ -28,10 +28,10 @@ const FAQ_ITEMS: FaqItemData[] = [
     source: "Fonte: Kaya Mind — Panorama da Cannabis Medicinal no Brasil 2025",
   },
   {
-    question: "Posso ser preso por usar cannabis medicinal?",
+    question: "Posso ter problemas legais usando cannabis medicinal?",
     answer:
-      "Não. Com receita médica e autorização da ANVISA (ou decisão judicial para cultivo), o uso é 100% legal. A autorização é individual e intransferível.",
-    source: "Fonte: Lei 11.343/2006; STJ — HC 143.798/SP",
+      "Depende da origem do produto. Com receita médica E produto de fonte autorizada (importação via ANVISA, farmácia ou associação com autorização judicial), o uso é legal e protegido. Sem essa combinação — por exemplo, flor de fonte não autorizada, mesmo com receita — você pode sim ter problemas com a polícia. A documentação correta é o que te protege.",
+    source: "Fonte: Lei 11.343/2006, Art. 28 e 33; RDC 660/2022",
   },
 ];
 
