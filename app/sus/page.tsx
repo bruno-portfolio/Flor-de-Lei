@@ -61,8 +61,11 @@ export default function SusPage() {
         <div className="card space-y-1">
           <div className="checklist-item">
             <span>
-              <strong>Receita médica</strong> — receituário azul tipo B ou
-              notificação especial. Sem ela, nenhum pedido é aceito.
+              <strong>Receita médica</strong> — o tipo de receita depende da
+              via de acesso. Para medicamentos de farmácia (como Prati-Donaduzzi),
+              é necessário receituário azul tipo B. Para importação via ANVISA ou
+              associações, receita simples com o nome do produto, dosagem e CRM
+              do médico é suficiente.
             </span>
           </div>
           <div className="checklist-item">

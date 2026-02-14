@@ -58,6 +58,12 @@ export default function AssociacoesPage() {
           preços mais acessíveis, orientação médica e suporte jurídico. Encontre
           uma associação no seu estado.
         </p>
+        <p className="text-sm text-bark-light">
+          Os valores exibidos são faixas de preço mensal informadas pelas
+          próprias associações ou obtidas em seus sites oficiais. Referem-se ao
+          custo do medicamento para associados. Cada card mostra a data da
+          última verificação. Confirme valores diretamente com a associação.
+        </p>
       </section>
 
       <div className="section-divider" />

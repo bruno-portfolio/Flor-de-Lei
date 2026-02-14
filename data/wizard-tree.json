@@ -177,7 +177,7 @@
       "type": "result",
       "progress": 100,
       "title": "Voc\u00ea tem DIREITO ao tratamento",
-      "content": "Mesmo sem dinheiro, voc\u00ea tem direito ao tratamento com cannabis medicinal. Veja suas op\u00e7\u00f5es:\n\nSUS: O Sistema \u00danico de Sa\u00fade \u00e9 obrigado a fornecer cannabis medicinal quando prescrita por um m\u00e9dico. Se negarem, voc\u00ea pode entrar com um pedido judicial (muitos s\u00e3o ganhos). Nosso guia explica o passo a passo.\n\nPlano de sa\u00fade: Se voc\u00ea tem plano, ele tamb\u00e9m \u00e9 obrigado a cobrir o tratamento quando h\u00e1 prescri\u00e7\u00e3o m\u00e9dica. Se negarem, registre uma reclama\u00e7\u00e3o na ANS.\n\nAssocia\u00e7\u00f5es com programa de isen\u00e7\u00e3o: Algumas associa\u00e7\u00f5es de pacientes t\u00eam programas para pessoas que n\u00e3o podem pagar. Elas avaliam caso a caso e podem fornecer o medicamento gratuitamente ou com desconto.\n\nN\u00e3o desista. O acesso \u00e0 cannabis medicinal \u00e9 um direito seu.",
+      "content": "Mesmo sem dinheiro, voc\u00ea tem direito ao tratamento com cannabis medicinal. Veja suas op\u00e7\u00f5es:\n\nSUS: O Sistema \u00danico de Sa\u00fade \u00e9 obrigado a fornecer cannabis medicinal quando prescrita por um m\u00e9dico. Se negarem, voc\u00ea pode entrar com um pedido judicial (muitos s\u00e3o ganhos). Nosso guia explica o passo a passo.\n\nPlano de sa\u00fade: Se voc\u00ea tem plano, muitos pacientes conseguem cobertura por via judicial. O plano pode negar, mas tribunais estaduais t\u00eam decidido a favor dos pacientes. Se negarem, registre reclama\u00e7\u00e3o na ANS (portal gov.br/ans ou 0800 701 9656) e procure a Defensoria P\u00fablica.\n\nAssocia\u00e7\u00f5es com programa de isen\u00e7\u00e3o: Algumas associa\u00e7\u00f5es de pacientes t\u00eam programas para pessoas que n\u00e3o podem pagar. Elas avaliam caso a caso e podem fornecer o medicamento gratuitamente ou com desconto.\n\nN\u00e3o desista. O acesso \u00e0 cannabis medicinal \u00e9 um direito seu.",
       "showDoctorTalkCard": true,
       "links": [
         {
@@ -189,6 +189,11 @@
           "label": "Ver associa\u00e7\u00f5es com programa de isen\u00e7\u00e3o",
           "url": "/associacoes",
           "type": "internal"
+        },
+        {
+          "label": "Reclama\u00e7\u00e3o ANS (plano de sa\u00fade)",
+          "url": "https://www.gov.br/ans/pt-br",
+          "type": "external"
         }
       ]
     },
@@ -296,7 +301,7 @@
       "type": "result",
       "progress": 100,
       "title": "Voc\u00ea j\u00e1 est\u00e1 no caminho mais acess\u00edvel",
-      "content": "As associa\u00e7\u00f5es j\u00e1 s\u00e3o a op\u00e7\u00e3o mais barata para cannabis medicinal no Brasil. Mas ainda existem formas de reduzir ou zerar o custo:\n\nSUS (gratuito): Voc\u00ea pode pedir que o SUS forne\u00e7a o medicamento. Se negarem, \u00e9 poss\u00edvel entrar com um pedido judicial. Muitos pacientes conseguem por essa via. Nosso guia explica o passo a passo.\n\nPlano de sa\u00fade: Se voc\u00ea tem plano, ele \u00e9 obrigado a cobrir o tratamento quando prescrito por m\u00e9dico. Se negarem, registre reclama\u00e7\u00e3o na ANS.\n\nPrograma de isen\u00e7\u00e3o: Algumas associa\u00e7\u00f5es oferecem desconto ou isen\u00e7\u00e3o para quem comprova dificuldade financeira. Converse com a sua associa\u00e7\u00e3o sobre essa possibilidade.",
+      "content": "As associa\u00e7\u00f5es j\u00e1 s\u00e3o a op\u00e7\u00e3o mais barata para cannabis medicinal no Brasil. Mas ainda existem formas de reduzir ou zerar o custo:\n\nSUS (gratuito): Voc\u00ea pode pedir que o SUS forne\u00e7a o medicamento. Se negarem, \u00e9 poss\u00edvel entrar com um pedido judicial. Muitos pacientes conseguem por essa via. Nosso guia explica o passo a passo.\n\nPlano de sa\u00fade: Muitos pacientes conseguem cobertura do plano por via judicial. O plano pode negar, mas tribunais estaduais t\u00eam decidido a favor dos pacientes. Se negarem, registre reclama\u00e7\u00e3o na ANS (portal gov.br/ans ou 0800 701 9656) e procure a Defensoria P\u00fablica.\n\nPrograma de isen\u00e7\u00e3o: Algumas associa\u00e7\u00f5es oferecem desconto ou isen\u00e7\u00e3o para quem comprova dificuldade financeira. Converse com a sua associa\u00e7\u00e3o sobre essa possibilidade.",
       "links": [
         {
           "label": "Guia: como conseguir pelo SUS",
@@ -316,7 +321,7 @@
       "type": "result",
       "progress": 100,
       "title": "Se tiver problemas com fornecimento, veja seus direitos",
-      "content": "Quem recebe cannabis medicinal pelo SUS ou plano de sa\u00fade tem direitos garantidos por lei. Se voc\u00ea est\u00e1 tendo problemas, veja o que fazer:\n\nSUS negou ou atrasou: Voc\u00ea pode registrar reclama\u00e7\u00e3o na Ouvidoria do SUS (136) e, se necess\u00e1rio, entrar com a\u00e7\u00e3o judicial. Muitos casos s\u00e3o resolvidos rapidamente.\n\nPlano de sa\u00fade negou: Registre reclama\u00e7\u00e3o na ANS (0800 701 9656). O plano \u00e9 obrigado a cobrir o tratamento quando h\u00e1 prescri\u00e7\u00e3o m\u00e9dica.\n\nFalta de medicamento: Se o medicamento est\u00e1 em falta, voc\u00ea tem direito a receber um equivalente. N\u00e3o aceite ficar sem tratamento.\n\nChecklist dos seus direitos:\n\u2022 Receita m\u00e9dica atualizada em m\u00e3os\n\u2022 Protocolo de todos os pedidos feitos\n\u2022 Registrar negativas por escrito\n\u2022 Guardar comprovantes de gastos (para reembolso judicial)",
+      "content": "Quem recebe cannabis medicinal pelo SUS ou plano de sa\u00fade tem direitos garantidos por lei. Se voc\u00ea est\u00e1 tendo problemas, veja o que fazer:\n\nSUS negou ou atrasou: Registre reclama\u00e7\u00e3o na Ouvidoria do SUS (ligue 136) e, se necess\u00e1rio, procure a Defensoria P\u00fablica para entrar com a\u00e7\u00e3o judicial. Muitos casos s\u00e3o resolvidos rapidamente.\n\nPlano de sa\u00fade negou: Registre reclama\u00e7\u00e3o na ANS pelo portal gov.br/ans ou ligue 0800 701 9656. Muitos pacientes conseguem cobertura por via judicial \u2014 tribunais estaduais t\u00eam decidido a favor. Procure a Defensoria P\u00fablica se precisar de a\u00e7\u00e3o judicial gratuita.\n\nFalta de medicamento: Se o medicamento est\u00e1 em falta, voc\u00ea tem direito a receber um equivalente. N\u00e3o aceite ficar sem tratamento.\n\nChecklist dos seus direitos:\n\u2022 Receita m\u00e9dica atualizada em m\u00e3os\n\u2022 Protocolo de todos os pedidos feitos\n\u2022 Registrar negativas por escrito\n\u2022 Guardar comprovantes de gastos (para reembolso judicial)",
       "links": [
         {
           "label": "Guia completo: seus direitos no SUS",
@@ -327,6 +332,16 @@
           "label": "Ver associa\u00e7\u00f5es (alternativa mais barata)",
           "url": "/associacoes",
           "type": "internal"
+        },
+        {
+          "label": "Reclama\u00e7\u00e3o ANS (plano de sa\u00fade negou)",
+          "url": "https://www.gov.br/ans/pt-br",
+          "type": "external"
+        },
+        {
+          "label": "Ouvidoria SUS (ligue 136)",
+          "url": "https://www.gov.br/saude/pt-br/canais-de-atendimento/ouvidoria-do-sus",
+          "type": "external"
         }
       ]
     }
