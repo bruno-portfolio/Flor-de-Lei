@@ -1,12 +1,33 @@
 # Flor de Lei
 
+![Vercel](https://vercelbadge.vercel.app/api/bruno-portfolio/Flor-de-Lei)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Data Validation](https://github.com/bruno-portfolio/Flor-de-Lei/actions/workflows/validate-data.yml/badge.svg)
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue)
+
 Guia gratuito e open-source para acesso à cannabis medicinal no Brasil.
+
+**[flordelei.vercel.app](https://flordelei.vercel.app)**
 
 ## Missão
 
 Ajudar pacientes e famílias a navegar o processo burocrático de acesso à cannabis medicinal — do zero ao tratamento, em linguagem simples, sem vender nada.
 
 **Um desconhecido consegue sair do zero até o próximo passo concreto em 3 minutos.**
+
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/01-landing-hero.jpeg" width="250" alt="Landing — hero e acolhimento" />
+  <img src="docs/screenshots/02-landing-ctas-faq.jpeg" width="250" alt="Landing — CTAs e FAQ" />
+  <img src="docs/screenshots/04-wizard-pergunta.jpeg" width="250" alt="Wizard — primeira pergunta" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/06-wizard-resultado.jpeg" width="250" alt="Wizard — resultado personalizado" />
+  <img src="docs/screenshots/07-wizard-proximos-passos.jpeg" width="250" alt="Wizard — próximos passos" />
+  <img src="docs/screenshots/08-associacoes.jpeg" width="250" alt="Diretório de associações" />
+</p>
 
 ## O que é
 
