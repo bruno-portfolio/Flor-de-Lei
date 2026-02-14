@@ -72,10 +72,16 @@ export default function AssociacaoListClient({
                 Ver todas as associações
               </button>
               <Link
-                href="/guia"
+                href="/sus"
                 className="btn-secondary text-sm no-underline"
               >
-                Outras formas de acesso
+                Conseguir pelo SUS (gratuito)
+              </Link>
+              <Link
+                href="/importacao"
+                className="btn-secondary text-sm no-underline"
+              >
+                Importar pela ANVISA
               </Link>
             </div>
           </div>
