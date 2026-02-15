@@ -123,6 +123,7 @@
         "dataVerificacao": "2026-02-13"
       },
       "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://www.jornalopcao.com.br/reportagens/cannabis-medicinal-482684/",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
@@ -167,6 +168,7 @@
         "dataVerificacao": "2026-02-13"
       },
       "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://regionalzao.com.br/2024/09/01/justica-de-minas-gerais-concede-liminar-autorizando-associacao-privada-de-ituiutaba-a-plantar-cannabis-para-uso-medicinal/",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
@@ -211,6 +213,7 @@
         "dataVerificacao": "2026-02-13"
       },
       "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://www.jfpb.jus.br/arquivos/editais/Cannabissentenca.pdf",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
@@ -253,7 +256,7 @@
         "fonte": "Referência de óleos produzidos. Preços exatos sob consulta. Folha PE.",
         "dataVerificacao": "2026-02-13"
       },
-      "cultivoAutorizado": true,
+      "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "parkinson", "alzheimer", "ansiedade", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
@@ -316,7 +319,7 @@
         "fonte": "Site oficial APEPI (associado.apepi.org)",
         "dataVerificacao": "2026-02-13"
       },
-      "cultivoAutorizado": true,
+      "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
@@ -339,6 +342,7 @@
         "dataVerificacao": "2026-02-13"
       },
       "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://www.osaogoncalo.com.br/geral/154089/decisao-historica-em-niteroi-abrario-conquista-direito-de-cultivar-cannabis-medicinal",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
@@ -424,6 +428,7 @@
         "dataVerificacao": "2026-02-13"
       },
       "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=26709",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
@@ -468,6 +473,7 @@
         "dataVerificacao": "2026-02-13"
       },
       "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://cultive.org.br/cultive-e-reforma-conseguem-o-primeiro-habeas-corpus-coletivo-do-pais-para-cultivo-de-cannabis-para-fins-terapeuticos/",
       "condicoesAtendidas": ["epilepsia", "dor-cronica", "ansiedade", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,

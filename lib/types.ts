@@ -26,6 +26,7 @@ export interface Associacao {
   site?: string;
   faixaPreco: FaixaPreco;
   cultivoAutorizado: boolean;
+  cultivoAutorizadoFonte?: string;
   condicoesAtendidas: string[];
   dataVerificacao: string; // ISO date: YYYY-MM-DD
   ativo: boolean;

@@ -33,9 +33,21 @@ export default function AssociacaoCard({ associacao }: AssociacaoCardProps) {
       {/* Badges */}
       <div className="flex flex-wrap gap-2">
         {associacao.cultivoAutorizado && (
-          <span className="inline-block bg-green-100 text-forest text-xs font-semibold px-3 py-1 rounded-full">
-            Cultivo autorizado
-          </span>
+          associacao.cultivoAutorizadoFonte ? (
+            <a
+              href={associacao.cultivoAutorizadoFonte}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-green-100 text-forest text-xs font-semibold px-3 py-1 rounded-full hover:bg-green-200 transition-colors no-underline"
+              title="Ver decisão judicial que autoriza o cultivo"
+            >
+              Cultivo autorizado ↗
+            </a>
+          ) : (
+            <span className="inline-block bg-green-100 text-forest text-xs font-semibold px-3 py-1 rounded-full">
+              Cultivo autorizado
+            </span>
+          )
         )}
         {associacao.suporteJuridico && (
           <span className="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">

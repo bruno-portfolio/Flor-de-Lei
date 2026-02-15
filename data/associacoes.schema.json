@@ -78,6 +78,11 @@
           "type": "boolean",
           "description": "Se a associação possui autorização judicial para cultivo"
         },
+        "cultivoAutorizadoFonte": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL da consulta processual ou decisão judicial que autoriza o cultivo"
+        },
         "condicoesAtendidas": {
           "type": "array",
           "items": {
