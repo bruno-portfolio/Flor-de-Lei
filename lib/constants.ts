@@ -60,7 +60,7 @@ export const PLATAFORMAS_TELEMEDICINA = [
   },
   {
     nome: "Cannexa",
-    url: "https://cannexa.com.br",
+    url: "https://cannexa.com.br/",
     descricao: "Telemedicina especializada, consultas a partir de R$79",
   },
   {
