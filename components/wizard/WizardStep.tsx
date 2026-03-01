@@ -61,7 +61,7 @@ export default function WizardStep({ tree }: WizardStepProps) {
             &larr; Voltar
           </button>
         )}
-        <WizardResult step={currentStep} />
+        <WizardResult step={currentStep} selectedState={state.selectedState} />
       </div>
     );
   }

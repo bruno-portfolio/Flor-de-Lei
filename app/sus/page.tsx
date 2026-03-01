@@ -241,8 +241,8 @@ export default function SusPage() {
           </ul>
         </div>
         <p className="source-badge">
-          Fonte: CFM — médico tem autonomia de prescrição (Resolução
-          2.113/2014)
+          Fonte: ANVISA — RDC 660/2022 (qualquer médico com CRM ativo pode
+          prescrever)
         </p>
       </section>
 

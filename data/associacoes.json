@@ -38,7 +38,7 @@
         "fonte": "Cannalize / site oficial ASPAEC (flores e óleos)",
         "dataVerificacao": "2026-02-13"
       },
-      "cultivoAutorizado": true,
+      "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia", "esclerose-multipla", "parkinson", "alzheimer"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
@@ -79,7 +79,7 @@
         "fonte": "Referência de mercado associativo. Confirme com a associação.",
         "dataVerificacao": "2026-02-13"
       },
-      "cultivoAutorizado": true,
+      "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,
@@ -101,7 +101,7 @@
         "fonte": "Referência de associações similares. Confirme com a associação.",
         "dataVerificacao": "2026-02-13"
       },
-      "cultivoAutorizado": true,
+      "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
       "dataVerificacao": "2026-02-13",
       "ativo": true,

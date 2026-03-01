@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import type { Associacao } from "@/lib/types";
 import StateFilter from "./StateFilter";
@@ -15,7 +16,10 @@ interface AssociacaoListClientProps {
 export default function AssociacaoListClient({
   associacoes,
 }: AssociacaoListClientProps) {
-  const [selectedState, setSelectedState] = useState("");
+  const searchParams = useSearchParams();
+  const [selectedState, setSelectedState] = useState(
+    () => searchParams.get("estado") || ""
+  );
   const [search, setSearch] = useState("");
   const [selectedCondition, setSelectedCondition] = useState("");
   const [cultivoOnly, setCultivoOnly] = useState(false);
@@ -76,7 +80,7 @@ export default function AssociacaoListClient({
       </div>
 
       <div className="flex items-center gap-3">
-        <p className="text-sm text-bark-light">
+        <p className="text-sm text-bark-light" aria-live="polite">
           {filtered.length}{" "}
           {filtered.length === 1 ? "associação encontrada" : "associações encontradas"}
         </p>

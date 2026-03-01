@@ -1,13 +1,21 @@
 import Link from "next/link";
 import WhatsAppShareButton from "@/components/shared/WhatsAppShareButton";
 import DoctorTalkCard from "./DoctorTalkCard";
-import type { WizardStepData } from "@/lib/types";
+import type { WizardStepData, EstadoBR } from "@/lib/types";
 
 interface WizardResultProps {
   step: WizardStepData;
+  selectedState?: EstadoBR;
 }
 
-export default function WizardResult({ step }: WizardResultProps) {
+export default function WizardResult({ step, selectedState }: WizardResultProps) {
+  const resolveUrl = (url: string) => {
+    if (selectedState && url === "/associacoes") {
+      return `/associacoes?estado=${selectedState}`;
+    }
+    return url;
+  };
+
   return (
     <div className="space-y-6">
       <div className="card space-y-4">
@@ -28,7 +36,7 @@ export default function WizardResult({ step }: WizardResultProps) {
                 return (
                   <Link
                     key={i}
-                    href={link.url}
+                    href={resolveUrl(link.url)}
                     className="btn-primary no-underline text-center"
                   >
                     {link.label}

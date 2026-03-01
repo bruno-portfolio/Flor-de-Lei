@@ -51,21 +51,3 @@ export const CONDICOES_LABELS: Record<string, string> = {
   "alzheimer": "Alzheimer",
   "cancer": "Câncer",
 };
-
-export const PLATAFORMAS_TELEMEDICINA = [
-  {
-    nome: "Cannabis & Saúde",
-    url: "https://cannabisesaude.com.br",
-    descricao: "300+ médicos prescritores, consultas a partir de R$200",
-  },
-  {
-    nome: "Cannexa",
-    url: "https://cannexa.com.br/",
-    descricao: "Telemedicina especializada, consultas a partir de R$79",
-  },
-  {
-    nome: "CANNAID",
-    url: "https://cannaid.app",
-    descricao: "Consultas a partir de R$60, em conformidade com RDC 660/2022",
-  },
-];

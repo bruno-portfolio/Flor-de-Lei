@@ -66,7 +66,6 @@ export interface WizardStepData {
   content?: string;
   links?: WizardLink[];
   showDoctorTalkCard?: boolean;
-  showMinorAlert?: boolean;
 }
 
 export interface WizardFlow {

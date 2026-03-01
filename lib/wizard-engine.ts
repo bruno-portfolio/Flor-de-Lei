@@ -54,11 +54,16 @@ export function selectOption(
   }
 
   const option = currentStep.options[optionIndex];
-  const newFlags = option.setsFlag
-    ? state.flags.includes(option.setsFlag)
-      ? state.flags
-      : [...state.flags, option.setsFlag]
-    : state.flags;
+
+  // Remove all flags from sibling options before applying the selected one.
+  // This ensures toggling (e.g. isMinor: Sim → Voltar → Não) clears stale flags.
+  const siblingFlags = new Set(
+    currentStep.options.map((o) => o.setsFlag).filter((f): f is string => !!f)
+  );
+  let newFlags = state.flags.filter((f) => !siblingFlags.has(f));
+  if (option.setsFlag) {
+    newFlags = [...newFlags, option.setsFlag];
+  }
 
   return {
     ...state,

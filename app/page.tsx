@@ -15,7 +15,7 @@ const jsonLd = {
       inLanguage: "pt-BR",
     },
     {
-      "@type": "NonprofitType",
+      "@type": "Organization",
       "@id": `${SITE_URL}/#organization`,
       name: SITE_NAME,
       url: SITE_URL,

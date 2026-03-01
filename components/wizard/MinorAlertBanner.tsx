@@ -1,6 +1,6 @@
 export default function MinorAlertBanner() {
   return (
-    <div className="bg-amber-50 border-2 border-amber-300 rounded-xl p-4 space-y-2">
+    <div role="alert" className="bg-amber-50 border-2 border-amber-300 rounded-xl p-4 space-y-2">
       <p className="font-bold text-amber-800">
         Paciente menor de idade
       </p>

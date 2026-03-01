@@ -12,14 +12,14 @@ const FAQ_ITEMS: FaqItemData[] = [
   {
     question: "Cannabis medicinal é legal no Brasil?",
     answer:
-      "Sim. Desde 2015, a ANVISA autoriza a importação de produtos à base de cannabis para uso pessoal. Em 2019, a RDC 327 regulamentou a venda em farmácias. Associações de pacientes também podem cultivar com autorização judicial.",
+      "Sim. Desde 2015, a ANVISA autoriza a importação de produtos à base de cannabis para uso pessoal. Em 2019, a RDC 327 regulamentou a venda em farmácias (será substituída pela RDC 1.015/2026 em maio de 2026). Associações de pacientes também podem cultivar com autorização judicial.",
     source: "Fonte: ANVISA — RDC 327/2019, RDC 660/2022",
   },
   {
     question: "Preciso de receita médica?",
     answer:
       "Sim. Qualquer médico com CRM pode prescrever. Você precisa de uma receita com o nome do produto, dosagem e o número do CRM do médico. Se seu médico não prescreve, existem plataformas de telemedicina especializadas.",
-    source: "Fonte: CFM — Resolução 2.113/2014; ANVISA — RDC 660/2022",
+    source: "Fonte: ANVISA — RDC 660/2022 (qualquer médico com CRM ativo pode prescrever)",
   },
   {
     question: "Quanto custa o tratamento?",
@@ -50,6 +50,8 @@ export default function FaqSection() {
               }
               className="w-full text-left flex items-start justify-between gap-4 min-h-touch"
               aria-expanded={openIndex === index}
+              aria-controls={`faq-panel-${index}`}
+              id={`faq-button-${index}`}
             >
               <span className="font-semibold text-bark">{item.question}</span>
               <span
@@ -64,7 +66,12 @@ export default function FaqSection() {
               </span>
             </button>
             {openIndex === index && (
-              <div className="mt-3 pt-3 border-t border-cream-dark space-y-2">
+              <div
+                id={`faq-panel-${index}`}
+                role="region"
+                aria-labelledby={`faq-button-${index}`}
+                className="mt-3 pt-3 border-t border-cream-dark space-y-2"
+              >
                 <p className="text-bark-light">{item.answer}</p>
                 <p className="source-badge">{item.source}</p>
               </div>

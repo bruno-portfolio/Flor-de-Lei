@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
 import PageContainer from "@/components/shared/PageContainer";
 import AssociacaoListClient from "@/components/associacoes/AssociacaoListClient";
@@ -69,7 +70,9 @@ export default function AssociacoesPage() {
 
       <div className="section-divider" />
 
-      <AssociacaoListClient associacoes={associacoes} />
+      <Suspense fallback={<div className="text-bark-light">Carregando...</div>}>
+        <AssociacaoListClient associacoes={associacoes} />
+      </Suspense>
 
       <div className="section-divider" />
 
