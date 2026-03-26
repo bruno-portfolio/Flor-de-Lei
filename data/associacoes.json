@@ -93,7 +93,7 @@
       "cidade": "Brasília",
       "telefone": "(61) 98369-3232",
       "whatsapp": "5561983693232",
-      "site": "https://www.aliancaverde.com",
+      "site": "https://www.instagram.com/aliancaverdebrasil/",
       "faixaPreco": {
         "min": 150,
         "max": 390,
@@ -103,7 +103,7 @@
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-03-26",
       "ativo": true,
       "placeholder": false
     },
