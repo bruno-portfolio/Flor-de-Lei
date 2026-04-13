@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17",
+  "lastUpdated": "2026-04-13",
   "associations": [
     {
       "id": "regenera-al",
@@ -22,6 +22,27 @@
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
+    },
+    {
+      "id": "acdc-ba",
+      "nome": "ACDC - Associação Chapada Diamantina de Pacientes e Estudos da Medicina Canábica",
+      "estado": "BA",
+      "cidade": "Ibicoara",
+      "telefone": "(77) 99999-0000",
+      "faixaPreco": {
+        "min": 100,
+        "max": 400,
+        "moeda": "BRL",
+        "fonte": "Estimativa baseada em associações similares. Confirme com a associação.",
+        "dataVerificacao": "2026-04-13"
+      },
+      "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://falagenefax.com/2026/03/06/tj-ba-concede-habeas-corpus-preventivo-para-associacao-plantar-transportar-e-produzir-oleo-de-cannabis-para-fins-medicinais/",
+      "condicoesAtendidas": ["parkinson", "cancer", "dor-cronica"],
+      "dataVerificacao": "2026-04-13",
+      "ativo": true,
+      "placeholder": true,
+      "suporteJuridico": false
     },
     {
       "id": "aspaec-ba",

@@ -1,5 +1,6 @@
 import AcolhimentoSection from "@/components/landing/AcolhimentoSection";
 import FaqSection from "@/components/landing/FaqSection";
+import MoreGuidesSection from "@/components/landing/MoreGuidesSection";
 import WizardEntryButtons from "@/components/landing/WizardEntryButtons";
 import NumbersSection from "@/components/landing/NumbersSection";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/lib/constants";
@@ -34,6 +35,8 @@ export default function Home() {
       <div className="space-y-8">
         <AcolhimentoSection />
         <WizardEntryButtons />
+        <div className="section-divider" />
+        <MoreGuidesSection />
         <div className="section-divider" />
         <FaqSection />
         <div className="section-divider" />

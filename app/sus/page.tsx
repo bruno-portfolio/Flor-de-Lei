@@ -269,6 +269,53 @@ export default function SusPage() {
 
       <div className="section-divider" />
 
+      {/* ── PROGRAMAS ESTADUAIS ── */}
+      <section className="print-section space-y-4">
+        <h2>PROGRAMAS ESTADUAIS</h2>
+        <div className="card space-y-3">
+          <p>
+            Além do caminho federal (Secretaria Municipal + Defensoria), alguns
+            estados e municípios já têm leis próprias que facilitam o acesso:
+          </p>
+          <ul className="list-disc pl-6 space-y-3">
+            <li>
+              <strong>São Paulo</strong> — Lei 17.618/2023: distribuição
+              gratuita pelo SUS estadual para pacientes com Síndrome de Dravet,
+              Lennox-Gastaut e Esclerose Tuberosa. Protocolo clínico em vigor.
+            </li>
+            <li>
+              <strong>Rio de Janeiro</strong> — Lei 10.201/2023: fornecimento
+              gratuito de medicamentos à base de cannabis para pacientes de
+              baixa renda, mediante receita e laudo médico.
+            </li>
+            <li>
+              <strong>Paraíba</strong> — Lei 11.972/2021: instituiu política
+              estadual de promoção de pesquisa e tratamento com cannabis
+              medicinal (não fornecimento direto).
+            </li>
+            <li>
+              <strong>Minas Gerais</strong> — projeto de lei aprovado em 1º
+              turno na Assembleia Legislativa para fornecimento gratuito pelo
+              SUS. Aguarda votação em 2º turno.
+            </li>
+            <li>
+              <strong>Belo Horizonte</strong> — PL 345/2025
+              (&quot;Mais Vida BH&quot;): propõe distribuição municipal
+              gratuita de cannabis medicinal pelo SUS. Em tramitação.
+            </li>
+          </ul>
+          <p>
+            Se o seu estado tem lei própria, mencione isso ao protocolar o
+            pedido na Secretaria de Saúde. Pode agilizar o processo.
+          </p>
+        </div>
+        <p className="source-badge">
+          Fonte: Legislações estaduais; Agência Brasil; CMBH
+        </p>
+      </section>
+
+      <div className="section-divider" />
+
       {/* ── OUTROS CAMINHOS ── */}
       <section className="print-section space-y-4">
         <h2>OUTROS CAMINHOS DE ACESSO</h2>

@@ -216,6 +216,42 @@ export default function ImportacaoPage() {
 
       <div className="section-divider" />
 
+      {/* ── O QUE MUDA EM MAIO DE 2026 ── */}
+      <section className="print-section space-y-4">
+        <h2>O QUE MUDA EM MAIO DE 2026</h2>
+        <div className="card space-y-3">
+          <p>
+            A <strong>RDC 1.015/2026</strong> entra em vigor em 4 de maio de
+            2026 e traz mudanças importantes para quem importa:
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Receita mais simples</strong> para produtos com THC
+              ≤&nbsp;0,2%: passa de Notificação B (azul) para Receita de
+              Controle Especial (branca, 2 vias). Na prática, menos burocracia.
+            </li>
+            <li>
+              <strong>Novas formas de uso autorizadas:</strong> além da oral
+              (gotas), agora também sublingual, bucal, inalatória e
+              dermatológica.
+            </li>
+            <li>
+              <strong>Dentistas</strong> também poderão prescrever (antes era
+              só médico).
+            </li>
+          </ul>
+          <p>
+            Para produtos com THC acima de 0,2%, a receita continua sendo a
+            Notificação A (amarela).
+          </p>
+        </div>
+        <p className="source-badge">
+          Fonte: ANVISA — RDC 1.015/2026, Art. 37
+        </p>
+      </section>
+
+      <div className="section-divider" />
+
       {/* ── PROBLEMAS COMUNS ── */}
       <section className="print-section space-y-4">
         <h2>PROBLEMAS COMUNS</h2>

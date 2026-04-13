@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GITHUB_URL, GOOGLE_FORM_URL, SITE_NAME } from "@/lib/constants";
 
 export default function Footer() {
@@ -5,6 +6,27 @@ export default function Footer() {
     <footer className="bg-bark text-cream px-4 py-8 mt-12">
       <div className="max-w-3xl mx-auto space-y-4 text-sm">
         <p className="font-semibold text-base">{SITE_NAME}</p>
+
+        <nav className="flex flex-wrap gap-x-4 gap-y-1 text-cream/90">
+          {[
+            { href: "/guia", label: "Guia" },
+            { href: "/sus", label: "SUS" },
+            { href: "/importacao", label: "Importação" },
+            { href: "/associacoes", label: "Associações" },
+            { href: "/seus-direitos", label: "Seus direitos" },
+            { href: "/regulamentacao", label: "Regulamentação" },
+            { href: "/veterinario", label: "Veterinário" },
+            { href: "/uso-seguro", label: "Uso seguro" },
+          ].map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="text-cream/90 hover:text-white underline"
+            >
+              {label}
+            </Link>
+          ))}
+        </nav>
 
         <p className="text-cream/80">
           Este site é informativo e não substitui orientação médica ou jurídica.

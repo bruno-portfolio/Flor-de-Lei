@@ -8,7 +8,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/sus", priority: 0.8 },
     { path: "/importacao", priority: 0.8 },
     { path: "/associacoes", priority: 0.8 },
+    { path: "/seus-direitos", priority: 0.7 },
+    { path: "/regulamentacao", priority: 0.7 },
     { path: "/uso-seguro", priority: 0.7 },
+    { path: "/veterinario", priority: 0.6 },
   ];
 
   return pages.map(({ path, priority }) => ({

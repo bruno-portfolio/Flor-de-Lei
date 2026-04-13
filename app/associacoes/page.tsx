@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function AssociacoesPage() {
   const associacoes = associacoesData.associations.filter(
-    (a) => a.ativo
+    (a) => a.ativo && !a.placeholder
   ) as Associacao[];
 
   const jsonLd = {
