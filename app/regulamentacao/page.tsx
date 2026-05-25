@@ -328,12 +328,12 @@ export default function RegulamentacaoPage() {
         <div className="card">
           <div className="space-y-4">
             <div className="flex gap-4 items-start">
-              <span className="bg-forest text-cream rounded-lg px-3 py-1 text-sm font-semibold flex-shrink-0">
-                04/mai
+              <span className="bg-bark-light text-cream rounded-lg px-3 py-1 text-sm font-semibold flex-shrink-0">
+                desde 04/mai
               </span>
               <div>
                 <p className="font-semibold">
-                  RDC 1.015 entra em vigor
+                  RDC 1.015 em vigor
                 </p>
                 <p className="text-sm text-bark-light">
                   Receitas simplificadas, novas vias de administração, dentistas

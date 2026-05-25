@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-05-25",
   "associations": [
     {
       "id": "regenera-al",
@@ -14,11 +14,11 @@
         "max": 350,
         "moeda": "BRL",
         "fonte": "Referência de mercado. Programa de isenção disponível. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -57,13 +57,14 @@
         "max": 500,
         "moeda": "BRL",
         "fonte": "Cannalize / site oficial ASPAEC (flores e óleos)",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia", "esclerose-multipla", "parkinson", "alzheimer"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": false
     },
     {
       "id": "cannab-ba",
@@ -77,13 +78,14 @@
         "max": 400,
         "moeda": "BRL",
         "fonte": "Estimativa. Consultas gratuitas (acolhimento). Confirme preços com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "parkinson", "esclerose-multipla", "alzheimer"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": false
     },
     {
       "id": "abracam-ce",
@@ -98,11 +100,11 @@
         "max": 400,
         "moeda": "BRL",
         "fonte": "Referência de mercado associativo. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -120,11 +122,11 @@
         "max": 390,
         "moeda": "BRL",
         "fonte": "Referência de associações similares. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-26",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false
     },
@@ -141,12 +143,12 @@
         "max": 300,
         "moeda": "BRL",
         "fonte": "Reportagens Jornal Opção / Portal ALEGO. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": true,
       "cultivoAutorizadoFonte": "https://www.jornalopcao.com.br/reportagens/cannabis-medicinal-482684/",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -164,11 +166,11 @@
         "max": 350,
         "moeda": "BRL",
         "fonte": "Site oficial AMA+ME / ALMG audiência pública",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "insonia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -186,12 +188,12 @@
         "max": 300,
         "moeda": "BRL",
         "fonte": "Estimativa baseada em reportagens regionais. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": true,
       "cultivoAutorizadoFonte": "https://regionalzao.com.br/2024/09/01/justica-de-minas-gerais-concede-liminar-autorizando-associacao-privada-de-ituiutaba-a-plantar-cannabis-para-uso-medicinal/",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -209,11 +211,11 @@
         "max": 400,
         "moeda": "BRL",
         "fonte": "Referência de mercado associativo. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -223,20 +225,20 @@
       "nome": "Abrace Esperança",
       "estado": "PB",
       "cidade": "João Pessoa",
-      "telefone": "(83) 99844-0084",
-      "whatsapp": "5583998440084",
+      "telefone": "(83) 99872-0072",
+      "whatsapp": "5583998720072",
       "site": "https://abraceesperanca.org.br/",
       "faixaPreco": {
         "min": 79,
         "max": 680,
         "moeda": "BRL",
         "fonte": "Site oficial Abrace Esperança / Cannalize",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": true,
       "cultivoAutorizadoFonte": "https://www.jfpb.jus.br/arquivos/editais/Cannabissentenca.pdf",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -254,11 +256,11 @@
         "max": 0,
         "moeda": "BRL",
         "fonte": "Organização de advocacia e defesa de direitos, não distribui produtos.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false
     },
@@ -275,11 +277,11 @@
         "max": 400,
         "moeda": "BRL",
         "fonte": "Referência de óleos produzidos. Preços exatos sob consulta. Folha PE.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "parkinson", "alzheimer", "ansiedade", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -296,11 +298,11 @@
         "max": 350,
         "moeda": "BRL",
         "fonte": "Referência de mercado. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false
     },
@@ -317,11 +319,11 @@
         "max": 400,
         "moeda": "BRL",
         "fonte": "Referência de mercado. Consulta médica R$250. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "parkinson", "alzheimer", "ansiedade", "esclerose-multipla", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false
     },
@@ -338,11 +340,11 @@
         "max": 400,
         "moeda": "BRL",
         "fonte": "Site oficial APEPI (associado.apepi.org)",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": false
@@ -360,12 +362,12 @@
         "max": 400,
         "moeda": "BRL",
         "fonte": "Estimativa baseada em associações similares. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": true,
       "cultivoAutorizadoFonte": "https://www.osaogoncalo.com.br/geral/154089/decisao-historica-em-niteroi-abrario-conquista-direito-de-cultivar-cannabis-medicinal",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -383,11 +385,11 @@
         "max": 400,
         "moeda": "BRL",
         "fonte": "Referência de mercado associativo. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "alzheimer", "ansiedade", "insonia", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -405,13 +407,14 @@
         "max": 400,
         "moeda": "BRL",
         "fonte": "Referência de mercado associativo. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
-      "placeholder": false
+      "placeholder": false,
+      "suporteJuridico": false
     },
     {
       "id": "assoc-alternativa-sc",
@@ -425,11 +428,11 @@
         "max": 350,
         "moeda": "BRL",
         "fonte": "Referência de mercado. Consulte preços no site oficial.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": false
@@ -440,18 +443,18 @@
       "estado": "SC",
       "cidade": "Florianópolis",
       "telefone": "(48) 3034-0420",
-      "site": "https://santacannabis.com.br/",
+      "site": "https://www.instagram.com/santacannabis/",
       "faixaPreco": {
         "min": 120,
         "max": 600,
         "moeda": "BRL",
         "fonte": "HempVegan / site oficial Santa Cannabis",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": true,
       "cultivoAutorizadoFonte": "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=26709",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "esclerose-multipla", "parkinson", "alzheimer", "ansiedade", "insonia", "cancer", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -469,11 +472,57 @@
         "max": 350,
         "moeda": "BRL",
         "fonte": "Referência de mercado. Confirme com a associação.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": false,
       "condicoesAtendidas": ["epilepsia", "autismo"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
+      "ativo": true,
+      "placeholder": false,
+      "suporteJuridico": true
+    },
+    {
+      "id": "reconstruir-cannabis-rn",
+      "nome": "Reconstruir Cannabis",
+      "estado": "RN",
+      "cidade": "Natal",
+      "telefone": "(84) 99429-5267",
+      "whatsapp": "5584994295267",
+      "site": "https://reconstruir.org.br/",
+      "faixaPreco": {
+        "min": 0,
+        "max": 0,
+        "moeda": "BRL",
+        "fonte": "Óleo a preço de custo, valor não publicado. Confirme com a associação.",
+        "dataVerificacao": "2026-05-25"
+      },
+      "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://tribunadonorte.com.br/rio-grande-do-norte/decisao-garante-habeas-corpus-coletivo-para-mais-de-700-pacientes-de-cannabis-medicinal-no-rn/",
+      "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade"],
+      "dataVerificacao": "2026-05-25",
+      "ativo": true,
+      "placeholder": false,
+      "suporteJuridico": true
+    },
+    {
+      "id": "acamero-ro",
+      "nome": "ACAMERO - Associação de Cannabis Medicinal de Rondônia",
+      "estado": "RO",
+      "cidade": "Ji-Paraná",
+      "telefone": "(69) 99236-0926",
+      "whatsapp": "5569992360926",
+      "site": "https://cannabismedicinalrondonia.wordpress.com/",
+      "faixaPreco": {
+        "min": 0,
+        "max": 0,
+        "moeda": "BRL",
+        "fonte": "Não divulgado publicamente. Confirme com a associação.",
+        "dataVerificacao": "2026-05-25"
+      },
+      "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://correiocentralro.com.br/noticias/geral/ji-parana-justica-de-rondonia-libera-o-cultivo-de-cannabis-para-casal-tratar-da-filha-com-autismo-e-epilepsia/11363",
+      "condicoesAtendidas": ["epilepsia", "autismo", "ansiedade"],
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
@@ -491,12 +540,12 @@
         "max": 0,
         "moeda": "BRL",
         "fonte": "Sem custo de produto - associação de autocultivo. Cultive não vende óleos.",
-        "dataVerificacao": "2026-03-17"
+        "dataVerificacao": "2026-05-25"
       },
       "cultivoAutorizado": true,
       "cultivoAutorizadoFonte": "https://cultive.org.br/cultive-e-reforma-conseguem-o-primeiro-habeas-corpus-coletivo-do-pais-para-cultivo-de-cannabis-para-fins-terapeuticos/",
       "condicoesAtendidas": ["epilepsia", "dor-cronica", "ansiedade", "fibromialgia"],
-      "dataVerificacao": "2026-03-17",
+      "dataVerificacao": "2026-05-25",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": false
