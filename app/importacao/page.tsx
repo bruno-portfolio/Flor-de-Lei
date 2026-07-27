@@ -216,18 +216,18 @@ export default function ImportacaoPage() {
 
       <div className="section-divider" />
 
-      {/* ── O QUE MUDA EM MAIO DE 2026 ── */}
+      {/* ── O QUE MUDOU EM MAIO DE 2026 ── */}
       <section className="print-section space-y-4">
-        <h2>O QUE MUDA EM MAIO DE 2026</h2>
+        <h2>O QUE MUDOU EM MAIO DE 2026</h2>
         <div className="card space-y-3">
           <p>
-            A <strong>RDC 1.015/2026</strong> entra em vigor em 4 de maio de
-            2026 e traz mudanças importantes para quem importa:
+            A <strong>RDC 1.015/2026</strong> está em vigor desde 4 de maio de
+            2026 e trouxe mudanças importantes para quem importa:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
               <strong>Receita mais simples</strong> para produtos com THC
-              ≤&nbsp;0,2%: passa de Notificação B (azul) para Receita de
+              ≤&nbsp;0,2%: passou de Notificação B (azul) para Receita de
               Controle Especial (branca, 2 vias). Na prática, menos burocracia.
             </li>
             <li>
@@ -236,8 +236,8 @@ export default function ImportacaoPage() {
               dermatológica.
             </li>
             <li>
-              <strong>Dentistas</strong> também poderão prescrever (antes era
-              só médico).
+              <strong>Dentistas</strong> também podem prescrever (antes era só
+              médico).
             </li>
           </ul>
           <p>

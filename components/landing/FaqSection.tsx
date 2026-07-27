@@ -12,19 +12,19 @@ const FAQ_ITEMS: FaqItemData[] = [
   {
     question: "Cannabis medicinal é legal no Brasil?",
     answer:
-      "Sim. Desde 2015, a ANVISA autoriza importação de produtos à base de cannabis. Em janeiro de 2026, a ANVISA aprovou 5 novas RDCs que regulamentam pesquisa, produção nacional e um sandbox para associações de pacientes. A RDC 1.015/2026 (em vigor a partir de maio de 2026) substitui a RDC 327/2019 e amplia as formas de acesso: novas vias de administração, receitas simplificadas e farmácias de manipulação.",
+      "Sim. Desde 2015, a ANVISA autoriza importação de produtos à base de cannabis. Em janeiro de 2026, a ANVISA aprovou 5 novas RDCs que regulamentam pesquisa, produção nacional e um sandbox para associações de pacientes. A RDC 1.015/2026, em vigor desde 4 de maio de 2026, substituiu a RDC 327/2019 e ampliou as formas de acesso: novas vias de administração, receitas simplificadas e farmácias de manipulação.",
     source: "Fonte: ANVISA — RDCs 1.011 a 1.015/2026, publicadas no DOU em 03/fev/2026",
   },
   {
     question: "Preciso de receita médica?",
     answer:
-      "Sim. Pelas regras da ANVISA, qualquer médico com CRM ativo pode prescrever. A partir de maio de 2026 (RDC 1.015), dentistas também poderão. Nota: o CFM (Conselho Federal de Medicina) tentou restringir a prescrição a 3 especialidades, mas a resolução restritiva (2324/2022) foi suspensa. Hoje há um vácuo regulatório no CFM, e na prática prevalecem as regras da ANVISA. Se seu médico não prescreve, existem plataformas de telemedicina especializadas.",
+      "Sim. Pelas regras da ANVISA, qualquer médico com CRM ativo pode prescrever. Desde maio de 2026 (RDC 1.015), dentistas também podem. Nota: o CFM (Conselho Federal de Medicina) tentou restringir a prescrição a 3 especialidades, mas a resolução restritiva (2324/2022) foi suspensa. Hoje há um vácuo regulatório no CFM, e na prática prevalecem as regras da ANVISA. Se seu médico não prescreve, existem plataformas de telemedicina especializadas.",
     source: "Fonte: ANVISA — RDC 660/2022, RDC 1.015/2026; CFM — Res. 2324/2022 (suspensa)",
   },
   {
     question: "Quanto custa o tratamento?",
     answer:
-      "Depende do caminho. Associações de pacientes: média de R$363 por produto. Importação via ANVISA: R$200 a R$800 por mês. Farmácia: média de R$679 por produto. Pelo SUS: gratuito (alguns estados já têm programas próprios). A partir de maio de 2026, farmácias de manipulação poderão preparar CBD isolado, o que pode reduzir custos — mas a norma ANVISA específica ainda não foi publicada.",
+      "Depende do caminho. Associações de pacientes: média de R$363 por produto. Importação via ANVISA: R$200 a R$800 por mês. Farmácia: média de R$679 por produto. Pelo SUS: gratuito (alguns estados já têm programas próprios). Desde maio de 2026, a RDC 1.015 permite o CBD isolado como insumo em farmácias de manipulação, o que pode reduzir custos — mas a norma da ANVISA sobre boas práticas de manipulação ainda não saiu, então na prática isso ainda não chegou ao balcão.",
     source: "Fonte: Kaya Mind — Anuário da Cannabis Medicinal 2025",
   },
   {

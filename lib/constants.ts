@@ -7,7 +7,7 @@ export const SITE_URL = "https://flor-de-lei.vercel.app";
 export const GITHUB_URL = "https://github.com/bruno-portfolio/Flor-de-Lei";
 export const GOOGLE_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSdtYZHV0zetR5FNn4ADjWLLV-XNNArvaU9kC5KNczcym0h7RA/viewform";
-export const VERIFICATION_DATE = "2026-05-25";
+export const VERIFICATION_DATE = "2026-07-27";
 
 export const ESTADOS: { sigla: EstadoBR; nome: string }[] = [
   { sigla: "AC", nome: "Acre" },
