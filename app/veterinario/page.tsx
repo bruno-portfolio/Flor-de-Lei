@@ -69,16 +69,25 @@ export default function VeterinarioPage() {
             receituário especial, retido na farmácia no momento da compra.
           </p>
           <div className="bg-green-50 rounded-lg p-4 mt-2">
-            <p className="font-semibold">Receita simplificada (desde set/2025)</p>
+            <p className="font-semibold">Receita simplificada (desde jan/2026)</p>
             <p>
-              A Portaria MAPA 837/2025 simplificou a prescrição: produtos com
-              THC ≤&nbsp;0,2% <strong>não precisam mais de receita especial</strong>{" "}
-              — basta receita veterinária comum.
+              A Portaria MAPA 837/2025 dispensou o controle especial para
+              produtos com THC ≤&nbsp;0,2%. Atenção à data: ela foi assinada em
+              setembro de 2025, mas só foi publicada no Diário Oficial em{" "}
+              <strong>2 de janeiro de 2026</strong> — e passou a valer nessa
+              data.
+            </p>
+            <p>
+              Essa dispensa vale <strong>no âmbito do MAPA</strong> e não afasta
+              as regras da ANVISA, que continuam valendo para os produtos de uso
+              humano: Portaria 344/98 e RDC 1.015/2026 na dispensação em
+              farmácia, RDC 660/2022 na importação. Confirme com o veterinário
+              qual receita o seu caso exige.
             </p>
           </div>
         </div>
         <p className="source-badge">
-          Fonte: CRMV-RJ; Portaria MAPA 837/2025
+          Fonte: Portaria MAPA 837/2025, Art. 32 (DOU 02/jan/2026); CRMV-RJ
         </p>
       </section>
 

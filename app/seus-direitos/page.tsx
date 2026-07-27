@@ -188,14 +188,28 @@ export default function SeusDireitosPage() {
             em programa educativo — sem ficha criminal.
           </p>
           <p>
+            Esse limite é uma <strong>presunção relativa</strong>: ficar abaixo
+            de 40&nbsp;g não garante automaticamente que você seja tratado como
+            usuário. O juiz pode levar em conta outras circunstâncias do caso
+            para concluir de forma diferente.
+          </p>
+          <p>
             Para <strong>cultivo individual com fins medicinais</strong>, é
             possível obter um <em>habeas corpus</em> (salvo-conduto) na
-            Justiça. O STJ decidiu em fevereiro de 2025 que o paciente{" "}
-            <strong>
-              NÃO precisa comprovar baixa renda
-            </strong>{" "}
-            para conseguir o HC.
+            Justiça. Em fevereiro de 2025, a 6ª Turma do STJ concedeu um
+            salvo-conduto <strong>sem exigir comprovação de baixa renda</strong>.
           </p>
+          <div className="bg-yellow-50 border-l-4 border-l-yellow-500 rounded-lg p-4 mt-2">
+            <p>
+              Atenção: decisão de Turma do STJ em habeas corpus{" "}
+              <strong>não é vinculante</strong> — orienta os demais tribunais,
+              mas não os obriga. Serve como argumento, não como garantia. Há
+              resistência: o TRF-6, por exemplo, firmou o entendimento de que o
+              habeas corpus não é a via adequada para esse pedido. Pergunte a um
+              advogado ou à Defensoria como o tribunal do seu estado vem
+              decidindo.
+            </p>
+          </div>
           <div className="bg-green-50 rounded-lg p-4 mt-2">
             <p className="font-semibold">Como funciona o HC para cultivo:</p>
             <ul className="list-disc pl-6 space-y-1 mt-2">
@@ -216,7 +230,9 @@ export default function SeusDireitosPage() {
           </div>
         </div>
         <p className="source-badge">
-          Fonte: STF — RE 635.659 (jun/2024); STJ — 6ª Turma (fev/2025); APEPI
+          Fonte: STF — RE 635.659 / Tema 506 (jun/2024); STJ — 6ª Turma, HC
+          913.386/SP, Rel. Min. Antonio Saldanha Palheiro (19/fev/2025,
+          Informativo 842); TRF-6 — 1ª Seção; APEPI
         </p>
       </section>
 

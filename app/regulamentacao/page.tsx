@@ -116,7 +116,9 @@ export default function RegulamentacaoPage() {
                   <td className="border border-cream-dark p-3">
                     <strong>Produção industrial</strong> por pessoas jurídicas
                     com Autorização Especial. THC ≤&nbsp;0,3%, câmeras 24h,
-                    georreferenciamento, inspeção sanitária prévia.
+                    georreferenciamento, inspeção sanitária prévia. Quem já
+                    cultivava por decisão judicial tem até 05/ago/2027 para se
+                    adequar e obter a Autorização Especial (Art.&nbsp;28).
                   </td>
                   <td className="border border-cream-dark p-3">04/ago/2026</td>
                 </tr>
@@ -127,10 +129,11 @@ export default function RegulamentacaoPage() {
                   <td className="border border-cream-dark p-3">
                     <strong>Sandbox para associações:</strong> primeira via
                     administrativa para associações cultivarem sem precisar de
-                    ordem judicial. Até 5 anos. Edital de chamamento público
-                    esperado entre abril e julho de 2026 (estimativa).
-                    Associações com HC existente têm até ago/2027 para
-                    transição.
+                    ordem judicial. Até 5 anos (Art.&nbsp;23). A participação
+                    depende de edital de chamamento público, que{" "}
+                    <strong>ainda não foi publicado</strong>. Só podem
+                    concorrer pessoas jurídicas constituídas há 2 anos ou mais
+                    (Art.&nbsp;8º).
                   </td>
                   <td className="border border-cream-dark p-3 font-semibold">
                     Já em vigor
@@ -147,7 +150,7 @@ export default function RegulamentacaoPage() {
                     manipulação (pendente norma específica da ANVISA).
                   </td>
                   <td className="border border-cream-dark p-3 font-semibold">
-                    04/mai/2026
+                    Em vigor (04/mai/2026)
                   </td>
                 </tr>
               </tbody>
@@ -220,7 +223,7 @@ export default function RegulamentacaoPage() {
             <li>
               Na prática,{" "}
               <strong>as regras da ANVISA prevalecem</strong>: qualquer médico
-              (e, a partir de maio/2026, dentista) com registro ativo pode
+              (e, desde maio/2026, dentista) com registro ativo pode
               prescrever.
             </li>
           </ol>
@@ -248,9 +251,15 @@ export default function RegulamentacaoPage() {
           <div>
             <h3>PL 399/2015 — Marco Legal da Cannabis</h3>
             <p>
-              Aprovado em comissão especial da Câmara em 2021. Aguarda votação
-              em plenário. Regulamenta cultivo, produção, pesquisa e
-              comercialização para fins medicinais e industriais.
+              Aprovado pela comissão especial da Câmara em junho de 2021 (17×17,
+              decidido pelo voto do relator). Um recurso impediu que seguisse
+              direto ao Senado e, desde então, a proposta está{" "}
+              <strong>
+                aguardando deliberação desse recurso na Mesa Diretora
+              </strong>{" "}
+              — ou seja, ainda não chegou a ser pautada em plenário. Regulamenta
+              cultivo, produção, pesquisa e comercialização para fins medicinais
+              e industriais.
             </p>
           </div>
           <div>
@@ -304,14 +313,18 @@ export default function RegulamentacaoPage() {
               Investimento de <strong>R$&nbsp;13,2 milhões</strong> via FINEP
             </li>
             <li>
-              <strong>5 unidades</strong> envolvidas: Brasília/DF, Pelotas/RS,
-              Campina Grande/PB, Fortaleza/CE e Campinas/SP
+              <strong>4 unidades</strong> envolvidas: Recursos Genéticos e
+              Biotecnologia (Brasília/DF), Clima Temperado (Pelotas/RS),
+              Algodão (Campina Grande/PB) e Agroindústria Tropical
+              (Fortaleza/CE)
             </li>
             <li>
               Projeto de no mínimo <strong>12 anos</strong> de duração
             </li>
             <li>
-              Início do cultivo experimental previsto para o 1º semestre de 2026
+              Cultivo experimental previsto para o 1º semestre de 2026,
+              condicionado a inspeções da ANVISA nas instalações. Nenhum
+              produto da pesquisa pode ser comercializado
             </li>
           </ul>
         </div>
@@ -342,20 +355,6 @@ export default function RegulamentacaoPage() {
               </div>
             </div>
             <div className="flex gap-4 items-start">
-              <span className="bg-bark-light text-cream rounded-lg px-3 py-1 text-sm font-semibold flex-shrink-0">
-                abr–jul
-              </span>
-              <div>
-                <p className="font-semibold">
-                  Edital do sandbox para associações (estimativa)
-                </p>
-                <p className="text-sm text-bark-light">
-                  Chamamento público para associações que queiram cultivar pela
-                  via administrativa (RDC 1.014)
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-4 items-start">
               <span className="bg-forest text-cream rounded-lg px-3 py-1 text-sm font-semibold flex-shrink-0">
                 04/ago
               </span>
@@ -365,6 +364,21 @@ export default function RegulamentacaoPage() {
                 </p>
                 <p className="text-sm text-bark-light">
                   Reclassificação da cannabis, pesquisa e produção industrial
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4 items-start">
+              <span className="bg-bark-light text-cream rounded-lg px-3 py-1 text-sm font-semibold flex-shrink-0">
+                sem data
+              </span>
+              <div>
+                <p className="font-semibold">
+                  Edital do sandbox para associações
+                </p>
+                <p className="text-sm text-bark-light">
+                  Chamamento público da RDC 1.014, para associações que queiram
+                  cultivar pela via administrativa. A ANVISA ainda não anunciou
+                  data de publicação
                 </p>
               </div>
             </div>

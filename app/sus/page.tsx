@@ -61,11 +61,13 @@ export default function SusPage() {
         <div className="card space-y-1">
           <div className="checklist-item">
             <span>
-              <strong>Receita médica</strong> — o tipo de receita depende da
-              via de acesso. Para medicamentos de farmácia (como Prati-Donaduzzi),
-              é necessário receituário azul tipo B. Para importação via ANVISA ou
-              associações, receita simples com o nome do produto, dosagem e CRM
-              do médico é suficiente.
+              <strong>Receita médica</strong> — para produtos de farmácia, o
+              tipo depende do teor de THC. Desde 4 de maio de 2026, produtos
+              com THC ≤&nbsp;0,2% (como o da Prati-Donaduzzi) exigem Receita de
+              Controle Especial — a branca, em 2 vias. Acima de 0,2%, é
+              Notificação de Receita A (amarela). Para importação via ANVISA ou
+              associações, receita com o nome do produto, dosagem e CRM do
+              médico.
             </span>
           </div>
           <div className="checklist-item">
@@ -98,7 +100,8 @@ export default function SusPage() {
           </div>
         </div>
         <p className="source-badge">
-          Fonte: Portaria MS/GM nº 1.554/2013; Jurisprudência do STJ
+          Fonte: ANVISA — RDC 1.015/2026 (vigente desde 04/mai/2026); Portaria
+          MS/GM nº 1.554/2013; Jurisprudência do STJ
         </p>
       </section>
 
