@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25",
+  "lastUpdated": "2026-07-27",
   "associations": [
     {
       "id": "regenera-al",
@@ -28,21 +28,23 @@
       "nome": "ACDC - Associação Chapada Diamantina de Pacientes e Estudos da Medicina Canábica",
       "estado": "BA",
       "cidade": "Ibicoara",
-      "telefone": "(77) 99999-0000",
+      "telefone": "(77) 98120-7333",
+      "whatsapp": "5577981207333",
+      "site": "https://www.acdc-chapada.org.br/",
       "faixaPreco": {
-        "min": 100,
-        "max": 400,
+        "min": 0,
+        "max": 0,
         "moeda": "BRL",
-        "fonte": "Estimativa baseada em associações similares. Confirme com a associação.",
-        "dataVerificacao": "2026-04-13"
+        "fonte": "Taxa associativa não divulgada no site oficial. Confirme com a associação.",
+        "dataVerificacao": "2026-07-27"
       },
       "cultivoAutorizado": true,
       "cultivoAutorizadoFonte": "https://falagenefax.com/2026/03/06/tj-ba-concede-habeas-corpus-preventivo-para-associacao-plantar-transportar-e-produzir-oleo-de-cannabis-para-fins-medicinais/",
-      "condicoesAtendidas": ["parkinson", "cancer", "dor-cronica"],
-      "dataVerificacao": "2026-04-13",
+      "condicoesAtendidas": ["epilepsia", "parkinson", "alzheimer", "cancer"],
+      "dataVerificacao": "2026-07-27",
       "ativo": true,
-      "placeholder": true,
-      "suporteJuridico": false
+      "placeholder": false,
+      "suporteJuridico": true
     },
     {
       "id": "aspaec-ba",
@@ -56,12 +58,13 @@
         "min": 200,
         "max": 500,
         "moeda": "BRL",
-        "fonte": "Cannalize / site oficial ASPAEC (flores e óleos)",
-        "dataVerificacao": "2026-05-25"
+        "fonte": "Referência Cannalize (out/2025). O site oficial não publica preços — confirme com a associação.",
+        "dataVerificacao": "2026-07-27"
       },
-      "cultivoAutorizado": false,
+      "cultivoAutorizado": true,
+      "cultivoAutorizadoFonte": "https://neofeed.com.br/finde/as-flores-estao-de-volta-e-brasil-avanca-em-direcao-ao-tratamento-integral-com-cannabis-medicinal/",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade", "insonia", "fibromialgia", "esclerose-multipla", "parkinson", "alzheimer"],
-      "dataVerificacao": "2026-05-25",
+      "dataVerificacao": "2026-07-27",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": false
