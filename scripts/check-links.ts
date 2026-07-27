@@ -207,8 +207,8 @@ async function checkUrl(url: string): Promise<{ statusCode: number | null; error
       headers: { "User-Agent": USER_AGENT },
     });
 
-    // Fallback to GET if HEAD returns 405
-    if (response.status === 405) {
+    // Fallback to GET if HEAD is rejected (405 Method Not Allowed, 415 Unsupported Media Type)
+    if (response.status === 405 || response.status === 415) {
       response = await fetch(url, {
         method: "GET",
         signal: controller.signal,
@@ -225,7 +225,10 @@ async function checkUrl(url: string): Promise<{ statusCode: number | null; error
       return { statusCode: null, error: "timeout" };
     }
 
-    return { statusCode: null, error: message };
+    // undici sempre reporta "fetch failed"; a causa real (ENETUNREACH, DNS, TLS) vem em err.cause
+    const cause = err instanceof Error && err.cause instanceof Error ? err.cause.message : null;
+
+    return { statusCode: null, error: cause ? `${message} — ${cause}` : message };
   } finally {
     clearTimeout(timer);
   }
