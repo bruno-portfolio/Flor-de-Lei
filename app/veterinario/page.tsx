@@ -47,7 +47,7 @@ export default function VeterinarioPage() {
             de 2024.
           </p>
           <p>
-            Os produtos utilizados são os mesmos já registrados pela ANVISA para
+            Os produtos utilizados são os mesmos já autorizados pela ANVISA para
             uso humano — farmácias e drogarias podem dispensá-los mediante
             receita veterinária especial.
           </p>
@@ -139,8 +139,8 @@ export default function VeterinarioPage() {
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              <strong>Farmácias e drogarias</strong> com produtos ANVISA
-              registrados (49 produtos disponíveis)
+              <strong>Farmácias e drogarias</strong> com produtos autorizados
+              pela ANVISA (49 disponíveis)
             </li>
             <li>
               <strong>Associações de pacientes</strong> que aceitem prescrições

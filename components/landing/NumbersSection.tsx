@@ -11,7 +11,7 @@ const NUMBERS = [
   },
   {
     value: "49",
-    label: "produtos aprovados pela ANVISA",
+    label: "produtos com autorização sanitária da ANVISA",
     source: "ANVISA 2025",
   },
 ];

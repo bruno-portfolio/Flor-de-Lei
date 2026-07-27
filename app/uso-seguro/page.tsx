@@ -60,7 +60,7 @@ export default function UsoSeguroPage() {
           </ul>
         </div>
         <p className="source-badge">
-          Fonte: Bulas dos produtos registrados ANVISA
+          Fonte: Bulas dos produtos com autorização sanitária da ANVISA
         </p>
       </section>
 
