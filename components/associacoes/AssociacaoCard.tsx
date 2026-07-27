@@ -8,6 +8,7 @@ interface AssociacaoCardProps {
 
 export default function AssociacaoCard({ associacao }: AssociacaoCardProps) {
   const stale = isStaleVerification(associacao.dataVerificacao);
+  const precoDivulgado = associacao.faixaPreco.max > 0;
 
   return (
     <div className="card space-y-4">
@@ -22,11 +23,21 @@ export default function AssociacaoCard({ associacao }: AssociacaoCardProps) {
       {/* Faixa de preço */}
       <div>
         <p className="font-semibold text-forest">
-          {formatPriceRange(associacao.faixaPreco.min, associacao.faixaPreco.max)}
-          <span className="text-bark-light font-normal text-sm"> /mês</span>
+          {precoDivulgado ? (
+            <>
+              {formatPriceRange(
+                associacao.faixaPreco.min,
+                associacao.faixaPreco.max
+              )}
+              <span className="text-bark-light font-normal text-sm"> /mês</span>
+            </>
+          ) : (
+            "Preço sob consulta"
+          )}
         </p>
+        <p className="text-xs text-bark-light">{associacao.faixaPreco.fonte}</p>
         <p className="text-xs text-bark-light">
-          Preço verificado em {formatDateBR(associacao.faixaPreco.dataVerificacao)}
+          Atualizado em {formatDateBR(associacao.faixaPreco.dataVerificacao)}
         </p>
       </div>
 

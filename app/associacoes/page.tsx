@@ -61,10 +61,11 @@ export default function AssociacoesPage() {
           uma associação no seu estado.
         </p>
         <p className="text-sm text-bark-light">
-          Os valores exibidos são faixas de preço mensal informadas pelas
-          próprias associações ou obtidas em seus sites oficiais. Referem-se ao
-          custo do medicamento para associados. Cada card mostra a data da
-          última verificação. Confirme valores diretamente com a associação.
+          Os valores são faixas de preço mensal do medicamento para associados.
+          Parte vem dos sites oficiais das associações; parte é estimativa de
+          referência de mercado, usada quando a associação não divulga preços.
+          Cada card indica a origem do valor e a data da última atualização.
+          Confirme sempre diretamente com a associação.
         </p>
       </section>
 
