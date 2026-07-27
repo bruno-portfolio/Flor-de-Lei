@@ -67,6 +67,14 @@ function extractUrlsFromJson(filePath: string): LinkEntry[] {
         entries.push({ url: assoc.site, source: label });
       }
 
+      // Fonte da decisão judicial — vira link clicável no badge "Cultivo autorizado"
+      if (
+        typeof assoc.cultivoAutorizadoFonte === "string" &&
+        assoc.cultivoAutorizadoFonte.startsWith("http")
+      ) {
+        entries.push({ url: assoc.cultivoAutorizadoFonte, source: label });
+      }
+
       const preco = assoc.faixaPreco as Record<string, unknown> | undefined;
       if (preco && typeof preco.fonte === "string") {
         const urls = preco.fonte.match(/https?:\/\/[^\s"',)]+/g);
