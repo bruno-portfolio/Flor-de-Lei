@@ -40,7 +40,7 @@
       },
       "cultivoAutorizado": true,
       "cultivoAutorizadoFonte": "https://falagenefax.com/2026/03/06/tj-ba-concede-habeas-corpus-preventivo-para-associacao-plantar-transportar-e-produzir-oleo-de-cannabis-para-fins-medicinais/",
-      "condicoesAtendidas": ["epilepsia", "parkinson", "alzheimer", "cancer"],
+      "condicoesAtendidas": [],
       "dataVerificacao": "2026-07-27",
       "ativo": true,
       "placeholder": false,
@@ -489,20 +489,20 @@
       "nome": "Reconstruir Cannabis",
       "estado": "RN",
       "cidade": "Natal",
-      "telefone": "(84) 99429-5267",
+      "telefone": "(84) 99141-2052",
       "whatsapp": "5584994295267",
       "site": "https://reconstruir.org.br/",
       "faixaPreco": {
         "min": 0,
         "max": 0,
         "moeda": "BRL",
-        "fonte": "Óleo a preço de custo, valor não publicado. Confirme com a associação.",
-        "dataVerificacao": "2026-05-25"
+        "fonte": "Óleo a preço de custo, valor não publicado. Associação: anuidade R$ 300 ou mensalidade R$ 30, com apoio a quem está em vulnerabilidade financeira (site oficial).",
+        "dataVerificacao": "2026-07-27"
       },
       "cultivoAutorizado": true,
       "cultivoAutorizadoFonte": "https://tribunadonorte.com.br/rio-grande-do-norte/decisao-garante-habeas-corpus-coletivo-para-mais-de-700-pacientes-de-cannabis-medicinal-no-rn/",
       "condicoesAtendidas": ["epilepsia", "autismo", "dor-cronica", "ansiedade"],
-      "dataVerificacao": "2026-05-25",
+      "dataVerificacao": "2026-07-27",
       "ativo": true,
       "placeholder": false,
       "suporteJuridico": true
